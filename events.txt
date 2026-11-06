@@ -1,0 +1,4 @@
+# Optional: Raid-Helper events to include even without an API key.
+# Paste Discord message links (right-click the Raid-Helper post > Copy Message Link), one per line.
+# Lines starting with # are ignored. Past raids drop off the page on their own.
+
