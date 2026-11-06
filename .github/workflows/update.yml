@@ -1,0 +1,44 @@
+name: Update raids
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+  push:
+    paths: ["events.txt"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-raids
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch Raid-Helper events
+        run: node scripts/build.mjs
+        env:
+          RH_API_KEY: ${{ secrets.RH_API_KEY }}
+          RH_SERVER_ID: ${{ vars.RH_SERVER_ID }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+
+      - name: Save changes
+        run: |
+          git config user.name "raid-bot"
+          git config user.email "raid-bot@users.noreply.github.com"
+          git add docs/data.json
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "Update raids"
+            git push
+          fi
