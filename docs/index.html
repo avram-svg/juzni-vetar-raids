@@ -24,6 +24,7 @@ body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.5 var(--
 header { display: grid; gap: 4px; }
 h1 { margin: 0; font: 700 clamp(28px, 6vw, 38px)/1.1 var(--display); color: var(--gold); letter-spacing: .02em; }
 .sub { color: var(--muted); font-size: 14px; }
+.hero.back { padding: 14px 20px; gap: 8px; }
 .hero { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 20px; display: grid; gap: 12px; }
 .big { font: 700 18px var(--body); padding: 14px 20px; border-radius: 6px; border: 0; background: var(--gold); color: var(--gold-ink); cursor: pointer; width: 100%; }
 .big:disabled { opacity: .45; cursor: default; }
@@ -66,6 +67,12 @@ textarea.hidden { position: fixed; left: -9999px; }
     <p class="steps">Then in game: <b>/gr</b> → <b>Import</b> → <b>Ctrl+V</b> → <b>Import</b>. Everyone online with the addon gets the raids.</p>
   </section>
 
+  <section class="hero back">
+    <div class="row"><a class="btn" id="sendBack" href="#" target="_blank" rel="noopener">Send to Raid-Helper</a>
+    <span class="steps">Signups made in game, back to Discord.</span></div>
+    <p class="steps">In game: <b>Export</b> → <b>Raid-Helper sync</b> → <b>Ctrl+A, Ctrl+C</b>. Then click the button above → <b>Run workflow</b> → paste into the box → <b>Run workflow</b>. The Discord post updates within a minute.</p>
+  </section>
+
   <main id="raids"></main>
 
   <footer>
@@ -87,7 +94,8 @@ let data = null;
   const repo = location.pathname.split("/").filter(Boolean)[0];
   if (location.hostname.endsWith("github.io") && repo) {
     $("runNow").href = `https://github.com/${owner}/${repo}/actions/workflows/update.yml`;
-  } else { $("runNow").removeAttribute("href"); }
+    $("sendBack").href = `https://github.com/${owner}/${repo}/actions/workflows/send-signups.yml`;
+  } else { $("runNow").removeAttribute("href"); $("sendBack").removeAttribute("href"); }
 })();
 
 function ago(iso) {
