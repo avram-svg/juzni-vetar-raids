@@ -1,7 +1,254 @@
 {
-  "updated": null,
+  "updated": "2026-11-07T00:13:42.888Z",
   "server": "897135062951276604",
-  "raids": [],
-  "all": "",
+  "raids": [
+    {
+      "id": "1566923380165320746",
+      "title": "CORE 2 FL",
+      "start": 1793991600,
+      "size": 25,
+      "link": "https://discord.com/channels/897135062951276604/1561382949608362055/1566923380165320746",
+      "leader": "Magmaa",
+      "counts": {
+        "signed": 11,
+        "late": 1,
+        "tentative": 2,
+        "bench": 0,
+        "declined": 1,
+        "tanks": 1,
+        "healers": 3
+      },
+      "signups": [
+        {
+          "name": "Glossacred",
+          "cls": "PALADIN",
+          "role": "T",
+          "status": "Y"
+        },
+        {
+          "name": "BELDY.ru",
+          "cls": "MAGE",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "BataDrvo",
+          "cls": "PALADIN",
+          "role": "H",
+          "status": "L"
+        },
+        {
+          "name": "2Ez",
+          "cls": "DRUID",
+          "role": "H",
+          "status": "Y"
+        },
+        {
+          "name": "Magmaa",
+          "cls": "DRUID",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Rott",
+          "cls": "MAGE",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Metalac",
+          "cls": "DRUID",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Kego",
+          "cls": "HUNTER",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Barinka",
+          "cls": "",
+          "role": "T",
+          "status": "T"
+        },
+        {
+          "name": "Madneskiller",
+          "cls": "MAGE",
+          "role": "D",
+          "status": "T"
+        },
+        {
+          "name": "Exillon",
+          "cls": "PRIEST",
+          "role": "H",
+          "status": "Y"
+        },
+        {
+          "name": "Kabash",
+          "cls": "PALADIN",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Pitbite",
+          "cls": "SHAMAN",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "wildest",
+          "cls": "",
+          "role": "D",
+          "status": "N"
+        }
+      ],
+      "import": "GR1^1566923380165320746^1793991600^25^CORE 2 FL^https://discord.com/channels/897135062951276604/1561382949608362055/1566923380165320746^Glossacred~Y~T~PALADIN;BELDY.ru~Y~D~MAGE;BataDrvo~L~H~PALADIN;2Ez~Y~H~DRUID;Magmaa~Y~D~DRUID;Rott~Y~D~MAGE;Metalac~Y~D~DRUID;Kego~Y~D~HUNTER;Barinka~T~T~;Madneskiller~T~D~MAGE;Exillon~Y~H~PRIEST;Kabash~Y~D~PALADIN;Pitbite~Y~D~SHAMAN;wildest~N~D~"
+    },
+    {
+      "id": "1568405531163627574",
+      "title": "CORE 2 MAJORDOMO",
+      "start": 1794164400,
+      "size": 25,
+      "link": "https://discord.com/channels/897135062951276604/1561382949608362055/1568405531163627574",
+      "leader": "Magmaa",
+      "counts": {
+        "signed": 6,
+        "late": 0,
+        "tentative": 0,
+        "bench": 0,
+        "declined": 0,
+        "tanks": 1,
+        "healers": 1
+      },
+      "signups": [
+        {
+          "name": "Glossacred",
+          "cls": "PALADIN",
+          "role": "T",
+          "status": "Y"
+        },
+        {
+          "name": "Pitbite",
+          "cls": "SHAMAN",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "2Ez",
+          "cls": "DRUID",
+          "role": "H",
+          "status": "Y"
+        },
+        {
+          "name": "Magmaa",
+          "cls": "DRUID",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "BELDY.ru",
+          "cls": "MAGE",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Medeluxe",
+          "cls": "WARRIOR",
+          "role": "D",
+          "status": "Y"
+        }
+      ],
+      "import": "GR1^1568405531163627574^1794164400^25^CORE 2 MAJORDOMO^https://discord.com/channels/897135062951276604/1561382949608362055/1568405531163627574^Glossacred~Y~T~PALADIN;Pitbite~Y~D~SHAMAN;2Ez~Y~H~DRUID;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;Medeluxe~Y~D~WARRIOR"
+    },
+    {
+      "id": "1566578979219964056",
+      "title": "CORE 1 MONDAY!!!!",
+      "start": 1794250800,
+      "size": 25,
+      "link": "https://discord.com/channels/897135062951276604/1561382833270816881/1566578979219964056",
+      "leader": "Magmaa",
+      "counts": {
+        "signed": 10,
+        "late": 0,
+        "tentative": 0,
+        "bench": 0,
+        "declined": 1,
+        "tanks": 1,
+        "healers": 2
+      },
+      "signups": [
+        {
+          "name": "Kego",
+          "cls": "PRIEST",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Rott",
+          "cls": "WARRIOR",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "swapx",
+          "cls": "PALADIN",
+          "role": "H",
+          "status": "Y"
+        },
+        {
+          "name": "Madneskiller",
+          "cls": "",
+          "role": "D",
+          "status": "N"
+        },
+        {
+          "name": "Bysmiel",
+          "cls": "DRUID",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Nyrala",
+          "cls": "WARLOCK",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Delastia",
+          "cls": "SHAMAN",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Kajsija",
+          "cls": "ROGUE",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Dupence",
+          "cls": "",
+          "role": "T",
+          "status": "Y"
+        },
+        {
+          "name": "Kabash",
+          "cls": "PRIEST",
+          "role": "H",
+          "status": "Y"
+        },
+        {
+          "name": "Magmaa",
+          "cls": "SHAMAN",
+          "role": "D",
+          "status": "Y"
+        }
+      ],
+      "import": "GR1^1566578979219964056^1794250800^25^CORE 1 MONDAY!!!!^https://discord.com/channels/897135062951276604/1561382833270816881/1566578979219964056^Kego~Y~D~PRIEST;Rott~Y~D~WARRIOR;swapx~Y~H~PALADIN;Madneskiller~N~D~;Bysmiel~Y~D~DRUID;Nyrala~Y~D~WARLOCK;Delastia~Y~D~SHAMAN;Kajsija~Y~D~ROGUE;Dupence~Y~T~;Kabash~Y~H~PRIEST;Magmaa~Y~D~SHAMAN"
+    }
+  ],
+  "all": "GR1^1566923380165320746^1793991600^25^CORE 2 FL^https://discord.com/channels/897135062951276604/1561382949608362055/1566923380165320746^Glossacred~Y~T~PALADIN;BELDY.ru~Y~D~MAGE;BataDrvo~L~H~PALADIN;2Ez~Y~H~DRUID;Magmaa~Y~D~DRUID;Rott~Y~D~MAGE;Metalac~Y~D~DRUID;Kego~Y~D~HUNTER;Barinka~T~T~;Madneskiller~T~D~MAGE;Exillon~Y~H~PRIEST;Kabash~Y~D~PALADIN;Pitbite~Y~D~SHAMAN;wildest~N~D~\nGR1^1568405531163627574^1794164400^25^CORE 2 MAJORDOMO^https://discord.com/channels/897135062951276604/1561382949608362055/1568405531163627574^Glossacred~Y~T~PALADIN;Pitbite~Y~D~SHAMAN;2Ez~Y~H~DRUID;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;Medeluxe~Y~D~WARRIOR\nGR1^1566578979219964056^1794250800^25^CORE 1 MONDAY!!!!^https://discord.com/channels/897135062951276604/1561382833270816881/1566578979219964056^Kego~Y~D~PRIEST;Rott~Y~D~WARRIOR;swapx~Y~H~PALADIN;Madneskiller~N~D~;Bysmiel~Y~D~DRUID;Nyrala~Y~D~WARLOCK;Delastia~Y~D~SHAMAN;Kajsija~Y~D~ROGUE;Dupence~Y~T~;Kabash~Y~H~PRIEST;Magmaa~Y~D~SHAMAN",
   "problems": []
 }
