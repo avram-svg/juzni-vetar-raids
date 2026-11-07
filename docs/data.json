@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T12:51:49.660Z",
+  "updated": "2026-11-07T21:42:43.700Z",
   "server": "897135062951276604",
   "raids": [
     {
@@ -167,8 +167,78 @@
         }
       ],
       "import": "GR1^1566578979219964056^1794250800^25^CORE 1 MONDAY!!!!^https://discord.com/channels/897135062951276604/1561382833270816881/1566578979219964056^Kego~Y~D~PRIEST;Rott~Y~D~WARRIOR;swapx~Y~H~PALADIN;Madneskiller~N~D~;Bysmiel~Y~D~DRUID;Nyrala~Y~D~WARLOCK;Delastia~Y~D~SHAMAN;Kajsija~Y~D~ROGUE;Dupence~Y~T~;Kabash~Y~H~PRIEST;Magmaa~Y~D~SHAMAN"
+    },
+    {
+      "id": "1568715174184226837",
+      "title": "FIRELANDS 25 man",
+      "start": 1794517200,
+      "size": 25,
+      "link": "https://discord.com/channels/897135062951276604/1516956742603243722/1568715174184226837",
+      "leader": "Magmaa",
+      "counts": {
+        "signed": 2,
+        "late": 0,
+        "tentative": 0,
+        "bench": 0,
+        "declined": 0,
+        "tanks": 0,
+        "healers": 1
+      },
+      "signups": [
+        {
+          "name": "Magmaa",
+          "cls": "MAGE",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Kajsija",
+          "cls": "PRIEST",
+          "role": "H",
+          "status": "Y"
+        }
+      ],
+      "import": "GR1^1568715174184226837^1794517200^25^FIRELANDS 25 man^https://discord.com/channels/897135062951276604/1516956742603243722/1568715174184226837^Magmaa~Y~D~MAGE;Kajsija~Y~H~PRIEST"
+    },
+    {
+      "id": "1568713873626890363",
+      "title": "CORE 2",
+      "start": 1794682800,
+      "size": 25,
+      "link": "https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363",
+      "leader": "Magmaa",
+      "counts": {
+        "signed": 3,
+        "late": 0,
+        "tentative": 0,
+        "bench": 0,
+        "declined": 0,
+        "tanks": 0,
+        "healers": 1
+      },
+      "signups": [
+        {
+          "name": "Kabash",
+          "cls": "PALADIN",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Magmaa",
+          "cls": "DRUID",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "2Ez",
+          "cls": "DRUID",
+          "role": "H",
+          "status": "Y"
+        }
+      ],
+      "import": "GR1^1568713873626890363^1794682800^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363^Kabash~Y~D~PALADIN;Magmaa~Y~D~DRUID;2Ez~Y~H~DRUID"
     }
   ],
-  "all": "GR1^1568405531163627574^1794164400^25^CORE 2 MAJORDOMO^https://discord.com/channels/897135062951276604/1561382949608362055/1568405531163627574^Glossacred~Y~T~PALADIN;Kego~N~D~;Pitbite~Y~D~SHAMAN;Rott~N~D~WARRIOR;Metalac~Y~D~DRUID;2Ez~Y~H~DRUID;Kabash~Y~D~PALADIN;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;Medeluxe~Y~D~WARRIOR\nGR1^1566578979219964056^1794250800^25^CORE 1 MONDAY!!!!^https://discord.com/channels/897135062951276604/1561382833270816881/1566578979219964056^Kego~Y~D~PRIEST;Rott~Y~D~WARRIOR;swapx~Y~H~PALADIN;Madneskiller~N~D~;Bysmiel~Y~D~DRUID;Nyrala~Y~D~WARLOCK;Delastia~Y~D~SHAMAN;Kajsija~Y~D~ROGUE;Dupence~Y~T~;Kabash~Y~H~PRIEST;Magmaa~Y~D~SHAMAN",
+  "all": "GR1^1568405531163627574^1794164400^25^CORE 2 MAJORDOMO^https://discord.com/channels/897135062951276604/1561382949608362055/1568405531163627574^Glossacred~Y~T~PALADIN;Kego~N~D~;Pitbite~Y~D~SHAMAN;Rott~N~D~WARRIOR;Metalac~Y~D~DRUID;2Ez~Y~H~DRUID;Kabash~Y~D~PALADIN;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;Medeluxe~Y~D~WARRIOR\nGR1^1566578979219964056^1794250800^25^CORE 1 MONDAY!!!!^https://discord.com/channels/897135062951276604/1561382833270816881/1566578979219964056^Kego~Y~D~PRIEST;Rott~Y~D~WARRIOR;swapx~Y~H~PALADIN;Madneskiller~N~D~;Bysmiel~Y~D~DRUID;Nyrala~Y~D~WARLOCK;Delastia~Y~D~SHAMAN;Kajsija~Y~D~ROGUE;Dupence~Y~T~;Kabash~Y~H~PRIEST;Magmaa~Y~D~SHAMAN\nGR1^1568715174184226837^1794517200^25^FIRELANDS 25 man^https://discord.com/channels/897135062951276604/1516956742603243722/1568715174184226837^Magmaa~Y~D~MAGE;Kajsija~Y~H~PRIEST\nGR1^1568713873626890363^1794682800^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363^Kabash~Y~D~PALADIN;Magmaa~Y~D~DRUID;2Ez~Y~H~DRUID",
   "problems": []
 }
