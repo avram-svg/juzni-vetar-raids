@@ -1,0 +1,51 @@
+name: Send to Raid-Helper
+
+on:
+  workflow_dispatch:
+    inputs:
+      line:
+        description: "Paste the line from the addon (Export > Raid-Helper sync)"
+        required: true
+        type: string
+      dry_run:
+        description: "Dry run: only show what would change"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-raids
+  cancel-in-progress: false
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Send signups
+        run: node scripts/send.mjs
+        env:
+          RH_API_KEY: ${{ secrets.RH_API_KEY }}
+          RH_SERVER_ID: ${{ vars.RH_SERVER_ID }}
+          SYNC_LINE: ${{ inputs.line }}
+          DRY_RUN: ${{ inputs.dry_run }}
+
+      - name: Refresh the raids page
+        if: ${{ !inputs.dry_run }}
+        run: |
+          node scripts/build.mjs
+          git config user.name "raid-bot"
+          git config user.email "raid-bot@users.noreply.github.com"
+          git add docs/data.json
+          if git diff --cached --quiet; then echo "Nothing changed."; else git commit -m "Update raids" && git push; fi
+        env:
+          RH_API_KEY: ${{ secrets.RH_API_KEY }}
+          RH_SERVER_ID: ${{ vars.RH_SERVER_ID }}
