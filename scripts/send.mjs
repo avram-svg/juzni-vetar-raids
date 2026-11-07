@@ -1,0 +1,111 @@
+// Sends in-game signups (the addon's "Raid-Helper sync" line) to the Raid-Helper events,
+// so the Discord posts show them. Run from the "Send to Raid-Helper" workflow.
+//
+// Line format: GRX1^eventId^char~status~role~CLASS~discordName;...
+// status: Y signed, L late, T tentative, B bench, N declined, X removed
+
+import {
+  API_KEY, log, request, listServerEvents, getEvent, signupsOf, userIdOf,
+  classOf, specOf, wantedSignup,
+} from "./raidhelper.mjs";
+
+const INPUT = process.env.SYNC_LINE || "";
+const DRY_RUN = /^(true|1|yes)$/i.test(process.env.DRY_RUN || "");
+
+if (!API_KEY) { console.error("RH_API_KEY secret is missing."); process.exit(1); }
+
+const blocks = INPUT.replace(/\s*GRX1\^/g, "\nGRX1^").split("\n").map(l => l.trim()).filter(l => l.startsWith("GRX1^"));
+if (!blocks.length) { console.error("No GRX1^ line found. Copy it from the addon: Export > Raid-Helper sync."); process.exit(1); }
+
+// same cleanup as the addon: "Rott | Rotina" and "Rott Rotina" are the same name
+const norm = s => String(s || "").toLowerCase().replace(/[\^~;|\r\n\t]/g, " ").replace(/\s+/g, " ").trim();
+
+// Discord name -> userId, learned from everyone who has signed up on any listed event
+async function buildDirectory(extraEvents) {
+  const dir = new Map();
+  const add = d => {
+    for (const s of signupsOf(d)) {
+      const id = userIdOf(s);
+      if (id && s.name) dir.set(norm(s.name), id);
+    }
+  };
+  for (const d of extraEvents) add(d);
+  const problems = [];
+  for (const e of (await listServerEvents(problems)).slice(0, 30)) {
+    try { add(await getEvent(e.id)); } catch {}
+  }
+  return dir;
+}
+
+// Raid-Helper's signup endpoints differ between API versions; try the likely ones.
+async function writeSignup(eventId, userId, body, current) {
+  const h = { Authorization: API_KEY };
+  const attempts = current
+    ? [
+        ["PATCH", `https://raid-helper.dev/api/v2/events/${eventId}/signups/${userId}`],
+        ["PUT", `https://raid-helper.dev/api/v2/events/${eventId}/signups/${userId}`],
+        ["POST", `https://raid-helper.dev/api/v2/events/${eventId}/signups`],
+      ]
+    : [["POST", `https://raid-helper.dev/api/v2/events/${eventId}/signups`],
+       ["POST", `https://raid-helper.dev/api/v3/events/${eventId}/signups`]];
+  const errors = [];
+  for (const [method, url] of attempts) {
+    try {
+      await request(url, { method, headers: h, body: { userId, ...body, notify: false } });
+      return `${method} ok`;
+    } catch (e) { errors.push(e.message.slice(0, 180)); }
+  }
+  throw new Error(errors.join("\n      "));
+}
+
+async function deleteSignup(eventId, userId) {
+  const url = `https://raid-helper.dev/api/v2/events/${eventId}/signups/${userId}`;
+  await request(url, { method: "DELETE", headers: { Authorization: API_KEY } });
+  return "DELETE ok";
+}
+
+let done = 0, skipped = 0, failed = 0;
+const summary = [];
+
+for (const block of blocks) {
+  const [, eventId, list = ""] = block.split("^");
+  const event = await getEvent(eventId);
+  log(`\n== ${event.title || eventId} (${eventId})`);
+  const current = new Map();          // userId -> current signup
+  for (const s of signupsOf(event)) if (userIdOf(s)) current.set(userIdOf(s), s);
+  const directory = await buildDirectory([event]);
+
+  for (const entry of list.split(";").filter(Boolean)) {
+    const [char, status, role, cls, discord] = entry.split("~");
+    const userId = directory.get(norm(discord)) || directory.get(norm(char));
+    const who = `${char}${discord && norm(discord) !== norm(char) ? ` (${discord})` : ""}`;
+    if (!userId) {
+      skipped++; summary.push(`? ${who}: no Discord account known. They need to sign up on Discord once, or link their Discord name in the addon.`);
+      continue;
+    }
+    const cur = current.get(userId);
+    try {
+      if (status === "X") {
+        if (!cur) { skipped++; summary.push(`= ${who}: already not signed up`); continue; }
+        const r = DRY_RUN ? "dry run" : await deleteSignup(eventId, userId);
+        done++; summary.push(`- ${who}: removed (${r})`);
+        continue;
+      }
+      const want = wantedSignup({ status, role, cls }, cur);
+      if (!want.className || !want.specName) {
+        skipped++; summary.push(`? ${who}: don't know the Raid-Helper class for ${cls || "unknown class"}`); continue;
+      }
+      if (cur && (cur.className || cur.class) === want.className && specOf(cur) === want.specName) {
+        skipped++; summary.push(`= ${who}: already ${want.className}/${want.specName}`); continue;
+      }
+      const r = DRY_RUN ? "dry run" : await writeSignup(eventId, userId, want, cur);
+      done++; summary.push(`+ ${who}: ${want.className}/${want.specName} (${r})`);
+    } catch (e) {
+      failed++; summary.push(`! ${who}: failed\n      ${e.message}`);
+    }
+  }
+}
+
+log("\n" + summary.join("\n"));
+log(`\n${DRY_RUN ? "[dry run] " : ""}${done} sent, ${skipped} skipped, ${failed} failed.`);
+if (failed && !done) process.exit(1);
