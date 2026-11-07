@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T22:44:13.555Z",
+  "updated": "2026-11-07T22:47:17.375Z",
   "server": "897135062951276604",
   "raids": [
     {
@@ -12,13 +12,19 @@
       "counts": {
         "signed": 8,
         "late": 0,
-        "tentative": 0,
+        "tentative": 1,
         "bench": 0,
-        "declined": 2,
+        "declined": 1,
         "tanks": 1,
         "healers": 1
       },
       "signups": [
+        {
+          "name": "Rott",
+          "cls": "WARRIOR",
+          "role": "D",
+          "status": "T"
+        },
         {
           "name": "Glossacred",
           "cls": "PALADIN",
@@ -36,12 +42,6 @@
           "cls": "SHAMAN",
           "role": "D",
           "status": "Y"
-        },
-        {
-          "name": "Rott",
-          "cls": "WARRIOR",
-          "role": "D",
-          "status": "N"
         },
         {
           "name": "Metalac",
@@ -80,7 +80,7 @@
           "status": "Y"
         }
       ],
-      "import": "GR1^1568405531163627574^1794164400^25^CORE 2 MAJORDOMO^https://discord.com/channels/897135062951276604/1561382949608362055/1568405531163627574^Glossacred~Y~T~PALADIN;Kego~N~D~;Pitbite~Y~D~SHAMAN;Rott~N~D~WARRIOR;Metalac~Y~D~DRUID;2Ez~Y~H~DRUID;Kabash~Y~D~PALADIN;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;Medeluxe~Y~D~WARRIOR"
+      "import": "GR1^1568405531163627574^1794164400^25^CORE 2 MAJORDOMO^https://discord.com/channels/897135062951276604/1561382949608362055/1568405531163627574^Rott~T~D~WARRIOR;Glossacred~Y~T~PALADIN;Kego~N~D~;Pitbite~Y~D~SHAMAN;Metalac~Y~D~DRUID;2Ez~Y~H~DRUID;Kabash~Y~D~PALADIN;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;Medeluxe~Y~D~WARRIOR"
     },
     {
       "id": "1566578979219964056",
@@ -180,7 +180,7 @@
         "late": 0,
         "tentative": 0,
         "bench": 0,
-        "declined": 0,
+        "declined": 1,
         "tanks": 0,
         "healers": 1
       },
@@ -196,9 +196,15 @@
           "cls": "PRIEST",
           "role": "H",
           "status": "Y"
+        },
+        {
+          "name": "Rott",
+          "cls": "PALADIN",
+          "role": "D",
+          "status": "N"
         }
       ],
-      "import": "GR1^1568715174184226837^1794517200^25^FIRELANDS 25 man^https://discord.com/channels/897135062951276604/1516956742603243722/1568715174184226837^Magmaa~Y~D~MAGE;Kajsija~Y~H~PRIEST"
+      "import": "GR1^1568715174184226837^1794517200^25^FIRELANDS 25 man^https://discord.com/channels/897135062951276604/1516956742603243722/1568715174184226837^Magmaa~Y~D~MAGE;Kajsija~Y~H~PRIEST;Rott~N~D~PALADIN"
     },
     {
       "id": "1568713873626890363",
@@ -208,20 +214,20 @@
       "link": "https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363",
       "leader": "Magmaa",
       "counts": {
-        "signed": 4,
+        "signed": 3,
         "late": 0,
         "tentative": 0,
         "bench": 0,
-        "declined": 0,
+        "declined": 1,
         "tanks": 0,
         "healers": 1
       },
       "signups": [
         {
           "name": "Rott",
-          "cls": "WARRIOR",
+          "cls": "PALADIN",
           "role": "D",
-          "status": "Y"
+          "status": "N"
         },
         {
           "name": "Kabash",
@@ -242,9 +248,9 @@
           "status": "Y"
         }
       ],
-      "import": "GR1^1568713873626890363^1794682800^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363^Rott~Y~D~WARRIOR;Kabash~Y~D~PALADIN;Magmaa~Y~D~DRUID;2Ez~Y~H~DRUID"
+      "import": "GR1^1568713873626890363^1794682800^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363^Rott~N~D~PALADIN;Kabash~Y~D~PALADIN;Magmaa~Y~D~DRUID;2Ez~Y~H~DRUID"
     }
   ],
-  "all": "GR1^1568405531163627574^1794164400^25^CORE 2 MAJORDOMO^https://discord.com/channels/897135062951276604/1561382949608362055/1568405531163627574^Glossacred~Y~T~PALADIN;Kego~N~D~;Pitbite~Y~D~SHAMAN;Rott~N~D~WARRIOR;Metalac~Y~D~DRUID;2Ez~Y~H~DRUID;Kabash~Y~D~PALADIN;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;Medeluxe~Y~D~WARRIOR\nGR1^1566578979219964056^1794250800^25^CORE 1 MONDAY!!!!^https://discord.com/channels/897135062951276604/1561382833270816881/1566578979219964056^Kego~Y~D~PRIEST;Rott~Y~D~WARRIOR;swapx~Y~H~PALADIN;Madneskiller~N~D~;Bysmiel~Y~D~DRUID;Nyrala~Y~D~WARLOCK;Delastia~Y~D~SHAMAN;Kajsija~Y~D~ROGUE;Dupence~Y~T~;Kabash~Y~H~PRIEST;Magmaa~Y~D~SHAMAN\nGR1^1568715174184226837^1794517200^25^FIRELANDS 25 man^https://discord.com/channels/897135062951276604/1516956742603243722/1568715174184226837^Magmaa~Y~D~MAGE;Kajsija~Y~H~PRIEST\nGR1^1568713873626890363^1794682800^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363^Rott~Y~D~WARRIOR;Kabash~Y~D~PALADIN;Magmaa~Y~D~DRUID;2Ez~Y~H~DRUID",
+  "all": "GR1^1568405531163627574^1794164400^25^CORE 2 MAJORDOMO^https://discord.com/channels/897135062951276604/1561382949608362055/1568405531163627574^Rott~T~D~WARRIOR;Glossacred~Y~T~PALADIN;Kego~N~D~;Pitbite~Y~D~SHAMAN;Metalac~Y~D~DRUID;2Ez~Y~H~DRUID;Kabash~Y~D~PALADIN;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;Medeluxe~Y~D~WARRIOR\nGR1^1566578979219964056^1794250800^25^CORE 1 MONDAY!!!!^https://discord.com/channels/897135062951276604/1561382833270816881/1566578979219964056^Kego~Y~D~PRIEST;Rott~Y~D~WARRIOR;swapx~Y~H~PALADIN;Madneskiller~N~D~;Bysmiel~Y~D~DRUID;Nyrala~Y~D~WARLOCK;Delastia~Y~D~SHAMAN;Kajsija~Y~D~ROGUE;Dupence~Y~T~;Kabash~Y~H~PRIEST;Magmaa~Y~D~SHAMAN\nGR1^1568715174184226837^1794517200^25^FIRELANDS 25 man^https://discord.com/channels/897135062951276604/1516956742603243722/1568715174184226837^Magmaa~Y~D~MAGE;Kajsija~Y~H~PRIEST;Rott~N~D~PALADIN\nGR1^1568713873626890363^1794682800^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363^Rott~N~D~PALADIN;Kabash~Y~D~PALADIN;Magmaa~Y~D~DRUID;2Ez~Y~H~DRUID",
   "problems": []
 }
