@@ -18,27 +18,59 @@ const now = Math.floor(Date.now() / 1000);
 const log = (...a) => console.log(...a);
 
 // ---------- Raid-Helper ----------
-async function getJson(url, headers = {}) {
-  const res = await fetch(url, { headers: { "User-Agent": "juzni-vetar-raids", ...headers } });
+async function getJson(url, headers = {}, method = "GET") {
+  const res = await fetch(url, { method, headers: { "User-Agent": "juzni-vetar-raids", ...headers } });
   const text = await res.text();
-  if (!res.ok) throw new Error(`${res.status} ${url}: ${text.slice(0, 200)}`);
+  if (!res.ok) throw new Error(`${res.status} ${method} ${url}: ${text.slice(0, 200)}`);
   return JSON.parse(text);
+}
+
+// Raid-Helper has changed this address between API versions, so try the known variants
+// and remember which one answered.
+const LIST_ENDPOINTS = [
+  ["POST", `https://raid-helper.dev/api/v3/servers/${SERVER_ID}/events`],
+  ["POST", `https://raid-helper.dev/api/v2/servers/${SERVER_ID}/events`],
+  ["GET", `https://raid-helper.dev/api/v4/servers/${SERVER_ID}/events`],
+  ["GET", `https://raid-helper.dev/api/v3/servers/${SERVER_ID}/scheduledevents`],
+  ["GET", `https://raid-helper.dev/api/v2/servers/${SERVER_ID}/events`],
+  ["GET", `https://raid-helper.dev/api/v3/servers/${SERVER_ID}/events`],
+];
+
+function eventsIn(data) {
+  if (Array.isArray(data)) return data;
+  return data.postedEvents || data.events || data.scheduledEvents || [];
 }
 
 // All event IDs on the server (needs the server API key from /apikey)
 async function listServerEvents() {
   if (!API_KEY) { log("No RH_API_KEY set: only events listed in events.txt are used."); return []; }
+  let found = null;
+  for (const [method, url] of LIST_ENDPOINTS) {
+    try {
+      const data = await getJson(url, { Authorization: API_KEY, Page: "1", IncludeSignUps: "false" }, method);
+      log(`OK   ${method} ${url}`);
+      found = { method, url, data };
+      break;
+    } catch (e) {
+      log(`fail ${e.message.split("\n")[0].slice(0, 160)}`);
+    }
+  }
+  if (!found) {
+    problems.push("Couldn't list the server's events with the API key (see the run log). Using events.txt only.");
+    return [];
+  }
   const ids = [];
+  let data = found.data;
   for (let page = 1; page <= 10; page++) {
-    const data = await getJson(`https://raid-helper.dev/api/v3/servers/${SERVER_ID}/events`,
-      { Authorization: API_KEY, Page: String(page) });
-    const list = data.postedEvents || data.events || [];
+    const list = eventsIn(data);
     for (const e of list) {
       const start = Number(e.startTime || e.unixtime || 0);
-      if (!start || start > now - KEEP_AFTER_START) ids.push(String(e.id || e.raidid || e.eventId));
+      const id = e.id || e.raidid || e.eventId || e.messageId;
+      if (id && (!start || start > now - KEEP_AFTER_START)) ids.push(String(id));
     }
     const pages = Number(data.pages || 1);
     if (page >= pages || list.length === 0) break;
+    data = await getJson(found.url, { Authorization: API_KEY, Page: String(page + 1), IncludeSignUps: "false" }, found.method);
   }
   log(`Server listing: ${ids.length} upcoming event(s).`);
   return ids;
@@ -165,9 +197,9 @@ async function notifyNew(newRaids) {
 }
 
 // ---------- Main ----------
+const problems = [];
 const ids = [...new Set([...(await listServerEvents()), ...(await extraEvents())])];
 const raids = [];
-const problems = [];
 for (const id of ids) {
   try {
     const raid = toRaid(await getEvent(id), id);
@@ -197,4 +229,4 @@ if (before === after && !problems.length) {
   await notifyNew(raids.filter(r => !oldIds.has(r.id) && r.start > now));
 }
 if (problems.length) { console.error("Problems:\n" + problems.join("\n")); }
-if (ids.length && !raids.length && problems.length === ids.length) process.exit(1);
+if (!ids.length && API_KEY) process.exit(1);   // nothing found at all: show the run as failed so it gets noticed
