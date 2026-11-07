@@ -68,6 +68,10 @@ async function deleteSignup(eventId, userId) {
   throw new Error(errors.join("\n      "));
 }
 
+// One Discord account can have several characters in the line (main + alts).
+// Keep the strongest answer: anyone coming beats a decline on an alt.
+const RANK = { Y: 5, L: 4, T: 3, B: 2, N: 1, X: 0 };
+
 let done = 0, skipped = 0, failed = 0;
 const summary = [];
 
@@ -79,6 +83,7 @@ for (const block of blocks) {
   for (const s of signupsOf(event)) if (userIdOf(s)) current.set(userIdOf(s), s);
   const directory = await buildDirectory([event]);
 
+  const byUser = new Map();
   for (const entry of list.split(";").filter(Boolean)) {
     const [char, status, role, cls, discord] = entry.split("~");
     const userId = directory.get(norm(discord)) || directory.get(norm(char));
@@ -87,6 +92,15 @@ for (const block of blocks) {
       skipped++; summary.push(`? ${who}: no Discord account known. They need to sign up on Discord once, or link their Discord name in the addon.`);
       continue;
     }
+    const prev = byUser.get(userId);
+    if (prev && (RANK[prev.status] ?? 0) >= (RANK[status] ?? 0)) {
+      skipped++; summary.push(`= ${who}: same person as ${prev.who}, keeping their answer`); continue;
+    }
+    if (prev) { skipped++; summary.push(`= ${prev.who}: same person as ${who}, using ${who}'s answer`); }
+    byUser.set(userId, { char, status, role, cls, who });
+  }
+
+  for (const [userId, { char, status, role, cls, who }] of byUser) {
     const cur = current.get(userId);
     try {
       if (status === "X") {
