@@ -17,9 +17,9 @@ export async function request(url, { method = "GET", headers = {}, body } = {}) 
 
 // ---------- Listing the server's events ----------
 const LIST_ENDPOINTS = [
+  ["GET", `https://raid-helper.dev/api/v4/servers/${SERVER_ID}/events`],
   ["POST", `https://raid-helper.dev/api/v3/servers/${SERVER_ID}/events`],
   ["POST", `https://raid-helper.dev/api/v2/servers/${SERVER_ID}/events`],
-  ["GET", `https://raid-helper.dev/api/v4/servers/${SERVER_ID}/events`],
   ["GET", `https://raid-helper.dev/api/v3/servers/${SERVER_ID}/scheduledevents`],
   ["GET", `https://raid-helper.dev/api/v2/servers/${SERVER_ID}/events`],
   ["GET", `https://raid-helper.dev/api/v3/servers/${SERVER_ID}/events`],
@@ -66,8 +66,10 @@ export async function listServerEvents(problems) {
 
 // Full event with signups
 export async function getEvent(id) {
+  const auth = API_KEY ? { Authorization: API_KEY } : {};
   const tries = [
-    [`https://raid-helper.dev/api/v2/events/${id}`, API_KEY ? { Authorization: API_KEY } : {}],
+    [`https://raid-helper.dev/api/v4/events/${id}`, auth],
+    [`https://raid-helper.dev/api/v2/events/${id}`, auth],
     [`https://raid-helper.dev/api/event/${id}`, {}],
   ];
   let lastErr;

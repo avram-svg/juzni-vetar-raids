@@ -40,14 +40,13 @@ async function buildDirectory(extraEvents) {
 // Raid-Helper's signup endpoints differ between API versions; try the likely ones.
 async function writeSignup(eventId, userId, body, current) {
   const h = { Authorization: API_KEY };
+  const base = v => `https://raid-helper.dev/api/${v}/events/${eventId}/signups`;
   const attempts = current
     ? [
-        ["PATCH", `https://raid-helper.dev/api/v2/events/${eventId}/signups/${userId}`],
-        ["PUT", `https://raid-helper.dev/api/v2/events/${eventId}/signups/${userId}`],
-        ["POST", `https://raid-helper.dev/api/v2/events/${eventId}/signups`],
+        ["PATCH", `${base("v4")}/${userId}`], ["PUT", `${base("v4")}/${userId}`], ["POST", base("v4")],
+        ["PATCH", `${base("v2")}/${userId}`], ["PUT", `${base("v2")}/${userId}`],
       ]
-    : [["POST", `https://raid-helper.dev/api/v2/events/${eventId}/signups`],
-       ["POST", `https://raid-helper.dev/api/v3/events/${eventId}/signups`]];
+    : [["POST", base("v4")], ["PUT", `${base("v4")}/${userId}`], ["POST", base("v2")]];
   const errors = [];
   for (const [method, url] of attempts) {
     try {
@@ -59,9 +58,14 @@ async function writeSignup(eventId, userId, body, current) {
 }
 
 async function deleteSignup(eventId, userId) {
-  const url = `https://raid-helper.dev/api/v2/events/${eventId}/signups/${userId}`;
-  await request(url, { method: "DELETE", headers: { Authorization: API_KEY } });
-  return "DELETE ok";
+  const errors = [];
+  for (const v of ["v4", "v2"]) {
+    try {
+      await request(`https://raid-helper.dev/api/${v}/events/${eventId}/signups/${userId}`, { method: "DELETE", headers: { Authorization: API_KEY } });
+      return `DELETE ${v} ok`;
+    } catch (e) { errors.push(e.message.slice(0, 180)); }
+  }
+  throw new Error(errors.join("\n      "));
 }
 
 let done = 0, skipped = 0, failed = 0;
