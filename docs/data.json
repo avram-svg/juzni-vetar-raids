@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T02:34:45.616Z",
+  "updated": "2026-11-09T21:00:22.703Z",
   "server": "897135062951276604",
   "raids": [
     {
@@ -96,7 +96,7 @@
       "link": "https://discord.com/channels/897135062951276604/1516956742603243722/1568715174184226837",
       "leader": "Magmaa",
       "counts": {
-        "signed": 2,
+        "signed": 3,
         "late": 0,
         "tentative": 0,
         "bench": 0,
@@ -105,6 +105,12 @@
         "healers": 1
       },
       "signups": [
+        {
+          "name": "Firebullet",
+          "cls": "MAGE",
+          "role": "D",
+          "status": "Y"
+        },
         {
           "name": "Magmaa",
           "cls": "MAGE",
@@ -124,7 +130,7 @@
           "status": "N"
         }
       ],
-      "import": "GR1^1568715174184226837^1794517200^25^FIRELANDS 25 man^https://discord.com/channels/897135062951276604/1516956742603243722/1568715174184226837^Magmaa~Y~D~MAGE;Kajsija~Y~H~PRIEST;Rott~N~D~PALADIN"
+      "import": "GR1^1568715174184226837^1794517200^25^FIRELANDS 25 man^https://discord.com/channels/897135062951276604/1516956742603243722/1568715174184226837^Firebullet~Y~D~MAGE;Magmaa~Y~D~MAGE;Kajsija~Y~H~PRIEST;Rott~N~D~PALADIN"
     },
     {
       "id": "1568713873626890363",
@@ -134,7 +140,7 @@
       "link": "https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363",
       "leader": "Magmaa",
       "counts": {
-        "signed": 4,
+        "signed": 5,
         "late": 0,
         "tentative": 0,
         "bench": 1,
@@ -174,6 +180,12 @@
           "status": "Y"
         },
         {
+          "name": "BELDY.ru",
+          "cls": "MAGE",
+          "role": "D",
+          "status": "Y"
+        },
+        {
           "name": "Shisha♡",
           "cls": "PRIEST",
           "role": "H",
@@ -186,9 +198,9 @@
           "status": "Y"
         }
       ],
-      "import": "GR1^1568713873626890363^1794682800^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363^Dupence~N~D~;Rott~N~D~PALADIN;Kabash~Y~D~PALADIN;LePanzer~Y~T~;Magmaa~Y~D~DRUID;Shisha♡~B~H~PRIEST;2Ez~Y~H~DRUID"
+      "import": "GR1^1568713873626890363^1794682800^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363^Dupence~N~D~;Rott~N~D~PALADIN;Kabash~Y~D~PALADIN;LePanzer~Y~T~;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;Shisha♡~B~H~PRIEST;2Ez~Y~H~DRUID"
     }
   ],
-  "all": "GR1^1566578979219964056^1794250800^25^CORE 1 MONDAY!!!!^https://discord.com/channels/897135062951276604/1561382833270816881/1566578979219964056^Kego~Y~D~PRIEST;Rott~Y~D~WARRIOR;swapx~Y~H~PALADIN;Madneskiller~N~D~;Bysmiel~Y~D~DRUID;Nyrala~Y~D~WARLOCK;Delastia~Y~D~SHAMAN;Kajsija~Y~D~ROGUE;Dupence~Y~T~;Kabash~Y~H~PRIEST;Magmaa~Y~D~SHAMAN\nGR1^1568715174184226837^1794517200^25^FIRELANDS 25 man^https://discord.com/channels/897135062951276604/1516956742603243722/1568715174184226837^Magmaa~Y~D~MAGE;Kajsija~Y~H~PRIEST;Rott~N~D~PALADIN\nGR1^1568713873626890363^1794682800^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363^Dupence~N~D~;Rott~N~D~PALADIN;Kabash~Y~D~PALADIN;LePanzer~Y~T~;Magmaa~Y~D~DRUID;Shisha♡~B~H~PRIEST;2Ez~Y~H~DRUID",
+  "all": "GR1^1566578979219964056^1794250800^25^CORE 1 MONDAY!!!!^https://discord.com/channels/897135062951276604/1561382833270816881/1566578979219964056^Kego~Y~D~PRIEST;Rott~Y~D~WARRIOR;swapx~Y~H~PALADIN;Madneskiller~N~D~;Bysmiel~Y~D~DRUID;Nyrala~Y~D~WARLOCK;Delastia~Y~D~SHAMAN;Kajsija~Y~D~ROGUE;Dupence~Y~T~;Kabash~Y~H~PRIEST;Magmaa~Y~D~SHAMAN\nGR1^1568715174184226837^1794517200^25^FIRELANDS 25 man^https://discord.com/channels/897135062951276604/1516956742603243722/1568715174184226837^Firebullet~Y~D~MAGE;Magmaa~Y~D~MAGE;Kajsija~Y~H~PRIEST;Rott~N~D~PALADIN\nGR1^1568713873626890363^1794682800^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363^Dupence~N~D~;Rott~N~D~PALADIN;Kabash~Y~D~PALADIN;LePanzer~Y~T~;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;Shisha♡~B~H~PRIEST;2Ez~Y~H~DRUID",
   "problems": []
 }
