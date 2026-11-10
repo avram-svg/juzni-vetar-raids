@@ -77,7 +77,14 @@ const summary = [];
 
 for (const block of blocks) {
   const [, eventId, list = ""] = block.split("^");
-  const event = await getEvent(eventId);
+  let event;
+  try { event = await getEvent(eventId); }
+  catch (e) {
+    failed++;
+    summary.push(`! Raid ${eventId}: not found on Raid-Helper (deleted or reposted on Discord?). Skipped it.`);
+    log(`\n== ${eventId}: not found on Raid-Helper, skipping`);
+    continue;
+  }
   log(`\n== ${event.title || eventId} (${eventId})`);
   const current = new Map();          // userId -> current signup
   for (const s of signupsOf(event)) if (userIdOf(s)) current.set(userIdOf(s), s);
@@ -126,4 +133,4 @@ for (const block of blocks) {
 
 log("\n" + summary.join("\n"));
 log(`\n${DRY_RUN ? "[dry run] " : ""}${done} sent, ${skipped} skipped, ${failed} failed.`);
-if (failed && !done) process.exit(1);
+if (failed && !done && !skipped) process.exit(1);
