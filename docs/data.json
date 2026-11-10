@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T03:24:19.990Z",
+  "updated": "2026-11-10T11:39:27.263Z",
   "server": "897135062951276604",
   "raids": [
     {
@@ -122,13 +122,13 @@
       "link": "https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737",
       "leader": "Magmaa",
       "counts": {
-        "signed": 4,
+        "signed": 5,
         "late": 0,
         "tentative": 0,
         "bench": 0,
         "declined": 0,
         "tanks": 1,
-        "healers": 0
+        "healers": 1
       },
       "signups": [
         {
@@ -144,6 +144,12 @@
           "status": "Y"
         },
         {
+          "name": "Kabash",
+          "cls": "PRIEST",
+          "role": "H",
+          "status": "Y"
+        },
+        {
           "name": "Bysmiel",
           "cls": "DRUID",
           "role": "D",
@@ -156,9 +162,9 @@
           "status": "Y"
         }
       ],
-      "import": "GR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Dupence~Y~T~;Magmaa~Y~D~SHAMAN;Bysmiel~Y~D~DRUID;Metalac~Y~D~DRUID"
+      "import": "GR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Dupence~Y~T~;Magmaa~Y~D~SHAMAN;Kabash~Y~H~PRIEST;Bysmiel~Y~D~DRUID;Metalac~Y~D~DRUID"
     }
   ],
-  "all": "GR1^1568715174184226837^1794517200^25^FIRELANDS 25 man^https://discord.com/channels/897135062951276604/1516956742603243722/1568715174184226837^Firebullet~Y~D~MAGE;Magmaa~Y~D~MAGE;Kajsija~Y~H~PRIEST;Rott~N~D~PALADIN\nGR1^1568713873626890363^1794682800^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363^Dupence~N~D~;Rott~N~D~PALADIN;Kabash~Y~D~PALADIN;LePanzer~Y~T~;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;Shisha♡~B~H~PRIEST;2Ez~Y~H~DRUID\nGR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Dupence~Y~T~;Magmaa~Y~D~SHAMAN;Bysmiel~Y~D~DRUID;Metalac~Y~D~DRUID",
+  "all": "GR1^1568715174184226837^1794517200^25^FIRELANDS 25 man^https://discord.com/channels/897135062951276604/1516956742603243722/1568715174184226837^Firebullet~Y~D~MAGE;Magmaa~Y~D~MAGE;Kajsija~Y~H~PRIEST;Rott~N~D~PALADIN\nGR1^1568713873626890363^1794682800^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363^Dupence~N~D~;Rott~N~D~PALADIN;Kabash~Y~D~PALADIN;LePanzer~Y~T~;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;Shisha♡~B~H~PRIEST;2Ez~Y~H~DRUID\nGR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Dupence~Y~T~;Magmaa~Y~D~SHAMAN;Kabash~Y~H~PRIEST;Bysmiel~Y~D~DRUID;Metalac~Y~D~DRUID",
   "problems": []
 }
