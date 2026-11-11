@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T15:03:06.133Z",
+  "updated": "2026-11-11T21:51:16.779Z",
   "server": "897135062951276604",
   "raids": [
     {
@@ -84,7 +84,7 @@
         "bench": 1,
         "declined": 1,
         "tanks": 1,
-        "healers": 2
+        "healers": 1
       },
       "signups": [
         {
@@ -107,8 +107,8 @@
         },
         {
           "name": "Magmaa",
-          "cls": "PRIEST",
-          "role": "H",
+          "cls": "SHAMAN",
+          "role": "D",
           "status": "Y"
         },
         {
@@ -148,9 +148,9 @@
           "status": "Y"
         }
       ],
-      "import": "GR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Kajsija~Y~D~ROGUE;Delastia~Y~D~SHAMAN;Rott~B~D~WARRIOR;Magmaa~Y~H~PRIEST;Dupence~Y~T~;Kabash~Y~H~PRIEST;Bysmiel~Y~D~DRUID;Madneskiller~N~D~;Metalac~Y~D~DRUID;Erik-Sashaa~Y~D~SHAMAN"
+      "import": "GR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Kajsija~Y~D~ROGUE;Delastia~Y~D~SHAMAN;Rott~B~D~WARRIOR;Magmaa~Y~D~SHAMAN;Dupence~Y~T~;Kabash~Y~H~PRIEST;Bysmiel~Y~D~DRUID;Madneskiller~N~D~;Metalac~Y~D~DRUID;Erik-Sashaa~Y~D~SHAMAN"
     }
   ],
-  "all": "GR1^1568713873626890363^1794682800^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363^Rott~T~D~WARRIOR;Dupence~N~D~;Kabash~Y~D~PALADIN;LePanzer~Y~T~;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;Shisha♡~B~H~PRIEST;2Ez~Y~H~DRUID\nGR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Kajsija~Y~D~ROGUE;Delastia~Y~D~SHAMAN;Rott~B~D~WARRIOR;Magmaa~Y~H~PRIEST;Dupence~Y~T~;Kabash~Y~H~PRIEST;Bysmiel~Y~D~DRUID;Madneskiller~N~D~;Metalac~Y~D~DRUID;Erik-Sashaa~Y~D~SHAMAN",
+  "all": "GR1^1568713873626890363^1794682800^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363^Rott~T~D~WARRIOR;Dupence~N~D~;Kabash~Y~D~PALADIN;LePanzer~Y~T~;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;Shisha♡~B~H~PRIEST;2Ez~Y~H~DRUID\nGR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Kajsija~Y~D~ROGUE;Delastia~Y~D~SHAMAN;Rott~B~D~WARRIOR;Magmaa~Y~D~SHAMAN;Dupence~Y~T~;Kabash~Y~H~PRIEST;Bysmiel~Y~D~DRUID;Madneskiller~N~D~;Metalac~Y~D~DRUID;Erik-Sashaa~Y~D~SHAMAN",
   "problems": []
 }
