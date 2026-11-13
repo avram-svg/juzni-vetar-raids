@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T18:48:29.609Z",
+  "updated": "2026-11-13T00:06:30.351Z",
   "server": "897135062951276604",
   "raids": [
     {
@@ -10,11 +10,11 @@
       "link": "https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363",
       "leader": "Magmaa",
       "counts": {
-        "signed": 6,
+        "signed": 5,
         "late": 0,
         "tentative": 1,
         "bench": 1,
-        "declined": 1,
+        "declined": 2,
         "tanks": 1,
         "healers": 2
       },
@@ -50,12 +50,6 @@
           "status": "Y"
         },
         {
-          "name": "Magmaa",
-          "cls": "DRUID",
-          "role": "D",
-          "status": "Y"
-        },
-        {
           "name": "BELDY.ru",
           "cls": "MAGE",
           "role": "D",
@@ -68,13 +62,19 @@
           "status": "B"
         },
         {
+          "name": "Magmaa",
+          "cls": "",
+          "role": "D",
+          "status": "N"
+        },
+        {
           "name": "2Ez",
           "cls": "DRUID",
           "role": "H",
           "status": "Y"
         }
       ],
-      "import": "GR1^1568713873626890363^1794682800^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363^Kaspian~Y~H~PRIEST;Rott~T~D~WARRIOR;Dupence~N~D~;Kabash~Y~D~PALADIN;LePanzer~Y~T~;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;Shisha♡~B~H~PRIEST;2Ez~Y~H~DRUID"
+      "import": "GR1^1568713873626890363^1794682800^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363^Kaspian~Y~H~PRIEST;Rott~T~D~WARRIOR;Dupence~N~D~;Kabash~Y~D~PALADIN;LePanzer~Y~T~;BELDY.ru~Y~D~MAGE;Shisha♡~B~H~PRIEST;Magmaa~N~D~;2Ez~Y~H~DRUID"
     },
     {
       "id": "1569496834513305737",
@@ -84,15 +84,45 @@
       "link": "https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737",
       "leader": "Magmaa",
       "counts": {
-        "signed": 9,
+        "signed": 11,
         "late": 0,
         "tentative": 0,
         "bench": 1,
         "declined": 1,
         "tanks": 1,
-        "healers": 1
+        "healers": 2
       },
       "signups": [
+        {
+          "name": "Delastia",
+          "cls": "SHAMAN",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Kego",
+          "cls": "PRIEST",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Pitbite",
+          "cls": "PRIEST",
+          "role": "H",
+          "status": "Y"
+        },
+        {
+          "name": "Kabash",
+          "cls": "PRIEST",
+          "role": "H",
+          "status": "Y"
+        },
+        {
+          "name": "Erik-Sashaa",
+          "cls": "SHAMAN",
+          "role": "D",
+          "status": "Y"
+        },
         {
           "name": "Kajsija",
           "cls": "ROGUE",
@@ -100,8 +130,8 @@
           "status": "Y"
         },
         {
-          "name": "Delastia",
-          "cls": "SHAMAN",
+          "name": "Method",
+          "cls": "MAGE",
           "role": "D",
           "status": "Y"
         },
@@ -124,18 +154,6 @@
           "status": "Y"
         },
         {
-          "name": "Kego",
-          "cls": "PRIEST",
-          "role": "D",
-          "status": "Y"
-        },
-        {
-          "name": "Kabash",
-          "cls": "PRIEST",
-          "role": "H",
-          "status": "Y"
-        },
-        {
           "name": "Bysmiel",
           "cls": "DRUID",
           "role": "D",
@@ -152,17 +170,11 @@
           "cls": "DRUID",
           "role": "D",
           "status": "Y"
-        },
-        {
-          "name": "Erik-Sashaa",
-          "cls": "SHAMAN",
-          "role": "D",
-          "status": "Y"
         }
       ],
-      "import": "GR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Kajsija~Y~D~ROGUE;Delastia~Y~D~SHAMAN;Rott~B~D~WARRIOR;Magmaa~Y~D~SHAMAN;Dupence~Y~T~;Kego~Y~D~PRIEST;Kabash~Y~H~PRIEST;Bysmiel~Y~D~DRUID;Madneskiller~N~D~;Metalac~Y~D~DRUID;Erik-Sashaa~Y~D~SHAMAN"
+      "import": "GR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Delastia~Y~D~SHAMAN;Kego~Y~D~PRIEST;Pitbite~Y~H~PRIEST;Kabash~Y~H~PRIEST;Erik-Sashaa~Y~D~SHAMAN;Kajsija~Y~D~ROGUE;Method~Y~D~MAGE;Rott~B~D~WARRIOR;Magmaa~Y~D~SHAMAN;Dupence~Y~T~;Bysmiel~Y~D~DRUID;Madneskiller~N~D~;Metalac~Y~D~DRUID"
     }
   ],
-  "all": "GR1^1568713873626890363^1794682800^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363^Kaspian~Y~H~PRIEST;Rott~T~D~WARRIOR;Dupence~N~D~;Kabash~Y~D~PALADIN;LePanzer~Y~T~;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;Shisha♡~B~H~PRIEST;2Ez~Y~H~DRUID\nGR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Kajsija~Y~D~ROGUE;Delastia~Y~D~SHAMAN;Rott~B~D~WARRIOR;Magmaa~Y~D~SHAMAN;Dupence~Y~T~;Kego~Y~D~PRIEST;Kabash~Y~H~PRIEST;Bysmiel~Y~D~DRUID;Madneskiller~N~D~;Metalac~Y~D~DRUID;Erik-Sashaa~Y~D~SHAMAN",
+  "all": "GR1^1568713873626890363^1794682800^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1568713873626890363^Kaspian~Y~H~PRIEST;Rott~T~D~WARRIOR;Dupence~N~D~;Kabash~Y~D~PALADIN;LePanzer~Y~T~;BELDY.ru~Y~D~MAGE;Shisha♡~B~H~PRIEST;Magmaa~N~D~;2Ez~Y~H~DRUID\nGR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Delastia~Y~D~SHAMAN;Kego~Y~D~PRIEST;Pitbite~Y~H~PRIEST;Kabash~Y~H~PRIEST;Erik-Sashaa~Y~D~SHAMAN;Kajsija~Y~D~ROGUE;Method~Y~D~MAGE;Rott~B~D~WARRIOR;Magmaa~Y~D~SHAMAN;Dupence~Y~T~;Bysmiel~Y~D~DRUID;Madneskiller~N~D~;Metalac~Y~D~DRUID",
   "problems": []
 }
