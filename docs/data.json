@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T07:03:54.902Z",
+  "updated": "2026-11-15T20:17:32.251Z",
   "server": "897135062951276604",
   "raids": [
     {
@@ -10,7 +10,7 @@
       "link": "https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737",
       "leader": "Magmaa",
       "counts": {
-        "signed": 11,
+        "signed": 12,
         "late": 0,
         "tentative": 0,
         "bench": 1,
@@ -22,6 +22,12 @@
         {
           "name": "Delastia",
           "cls": "SHAMAN",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Racko1985",
+          "cls": "WARRIOR",
           "role": "D",
           "status": "Y"
         },
@@ -98,9 +104,9 @@
           "status": "Y"
         }
       ],
-      "import": "GR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Delastia~Y~D~SHAMAN;Kego~Y~D~PRIEST;Pitbite~Y~H~PRIEST;Kabash~Y~H~PRIEST;Erik-Sashaa~Y~D~SHAMAN;Kajsija~Y~D~ROGUE;Method~Y~D~MAGE;Rott~B~D~WARRIOR;Magmaa~Y~D~SHAMAN;Dupence~Y~T~;Bysmiel~Y~D~DRUID;Madneskiller~N~D~;Metalac~Y~D~DRUID"
+      "import": "GR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Delastia~Y~D~SHAMAN;Racko1985~Y~D~WARRIOR;Kego~Y~D~PRIEST;Pitbite~Y~H~PRIEST;Kabash~Y~H~PRIEST;Erik-Sashaa~Y~D~SHAMAN;Kajsija~Y~D~ROGUE;Method~Y~D~MAGE;Rott~B~D~WARRIOR;Magmaa~Y~D~SHAMAN;Dupence~Y~T~;Bysmiel~Y~D~DRUID;Madneskiller~N~D~;Metalac~Y~D~DRUID"
     }
   ],
-  "all": "GR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Delastia~Y~D~SHAMAN;Kego~Y~D~PRIEST;Pitbite~Y~H~PRIEST;Kabash~Y~H~PRIEST;Erik-Sashaa~Y~D~SHAMAN;Kajsija~Y~D~ROGUE;Method~Y~D~MAGE;Rott~B~D~WARRIOR;Magmaa~Y~D~SHAMAN;Dupence~Y~T~;Bysmiel~Y~D~DRUID;Madneskiller~N~D~;Metalac~Y~D~DRUID",
+  "all": "GR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Delastia~Y~D~SHAMAN;Racko1985~Y~D~WARRIOR;Kego~Y~D~PRIEST;Pitbite~Y~H~PRIEST;Kabash~Y~H~PRIEST;Erik-Sashaa~Y~D~SHAMAN;Kajsija~Y~D~ROGUE;Method~Y~D~MAGE;Rott~B~D~WARRIOR;Magmaa~Y~D~SHAMAN;Dupence~Y~T~;Bysmiel~Y~D~DRUID;Madneskiller~N~D~;Metalac~Y~D~DRUID",
   "problems": []
 }
