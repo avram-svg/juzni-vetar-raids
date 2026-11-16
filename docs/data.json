@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15T20:17:32.251Z",
+  "updated": "2026-11-16T00:17:02.988Z",
   "server": "897135062951276604",
   "raids": [
     {
@@ -105,8 +105,34 @@
         }
       ],
       "import": "GR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Delastia~Y~D~SHAMAN;Racko1985~Y~D~WARRIOR;Kego~Y~D~PRIEST;Pitbite~Y~H~PRIEST;Kabash~Y~H~PRIEST;Erik-Sashaa~Y~D~SHAMAN;Kajsija~Y~D~ROGUE;Method~Y~D~MAGE;Rott~B~D~WARRIOR;Magmaa~Y~D~SHAMAN;Dupence~Y~T~;Bysmiel~Y~D~DRUID;Madneskiller~N~D~;Metalac~Y~D~DRUID"
+    },
+    {
+      "id": "1571665848660271197",
+      "title": "CORE 2 run",
+      "start": 1795114800,
+      "size": 25,
+      "link": "https://discord.com/channels/897135062951276604/1561382949608362055/1571665848660271197",
+      "leader": "Magmaa",
+      "counts": {
+        "signed": 1,
+        "late": 0,
+        "tentative": 0,
+        "bench": 0,
+        "declined": 0,
+        "tanks": 0,
+        "healers": 0
+      },
+      "signups": [
+        {
+          "name": "Magmaa",
+          "cls": "DRUID",
+          "role": "D",
+          "status": "Y"
+        }
+      ],
+      "import": "GR1^1571665848660271197^1795114800^25^CORE 2 run^https://discord.com/channels/897135062951276604/1561382949608362055/1571665848660271197^Magmaa~Y~D~DRUID"
     }
   ],
-  "all": "GR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Delastia~Y~D~SHAMAN;Racko1985~Y~D~WARRIOR;Kego~Y~D~PRIEST;Pitbite~Y~H~PRIEST;Kabash~Y~H~PRIEST;Erik-Sashaa~Y~D~SHAMAN;Kajsija~Y~D~ROGUE;Method~Y~D~MAGE;Rott~B~D~WARRIOR;Magmaa~Y~D~SHAMAN;Dupence~Y~T~;Bysmiel~Y~D~DRUID;Madneskiller~N~D~;Metalac~Y~D~DRUID",
+  "all": "GR1^1569496834513305737^1794769200^25^CORE 1 FL^https://discord.com/channels/897135062951276604/1561382833270816881/1569496834513305737^Delastia~Y~D~SHAMAN;Racko1985~Y~D~WARRIOR;Kego~Y~D~PRIEST;Pitbite~Y~H~PRIEST;Kabash~Y~H~PRIEST;Erik-Sashaa~Y~D~SHAMAN;Kajsija~Y~D~ROGUE;Method~Y~D~MAGE;Rott~B~D~WARRIOR;Magmaa~Y~D~SHAMAN;Dupence~Y~T~;Bysmiel~Y~D~DRUID;Madneskiller~N~D~;Metalac~Y~D~DRUID\nGR1^1571665848660271197^1795114800^25^CORE 2 run^https://discord.com/channels/897135062951276604/1561382949608362055/1571665848660271197^Magmaa~Y~D~DRUID",
   "problems": []
 }
