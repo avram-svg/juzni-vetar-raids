@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T07:10:26.289Z",
+  "updated": "2026-11-16T17:21:29.547Z",
   "server": "897135062951276604",
   "raids": [
     {
@@ -10,25 +10,61 @@
       "link": "https://discord.com/channels/897135062951276604/1561382949608362055/1571665848660271197",
       "leader": "Magmaa",
       "counts": {
-        "signed": 1,
+        "signed": 4,
         "late": 0,
-        "tentative": 0,
+        "tentative": 3,
         "bench": 0,
         "declined": 0,
-        "tanks": 0,
-        "healers": 0
+        "tanks": 1,
+        "healers": 1
       },
       "signups": [
+        {
+          "name": "Delastia",
+          "cls": "PALADIN",
+          "role": "H",
+          "status": "Y"
+        },
         {
           "name": "Magmaa",
           "cls": "DRUID",
           "role": "D",
           "status": "Y"
+        },
+        {
+          "name": "Dupence",
+          "cls": "MAGE",
+          "role": "D",
+          "status": "T"
+        },
+        {
+          "name": "Madneskiller",
+          "cls": "SHAMAN",
+          "role": "D",
+          "status": "T"
+        },
+        {
+          "name": "Kabash",
+          "cls": "PALADIN",
+          "role": "D",
+          "status": "T"
+        },
+        {
+          "name": "BELDY.ru",
+          "cls": "MAGE",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "LePanzer",
+          "cls": "",
+          "role": "T",
+          "status": "Y"
         }
       ],
-      "import": "GR1^1571665848660271197^1795114800^25^CORE 2 run^https://discord.com/channels/897135062951276604/1561382949608362055/1571665848660271197^Magmaa~Y~D~DRUID"
+      "import": "GR1^1571665848660271197^1795114800^25^CORE 2 run^https://discord.com/channels/897135062951276604/1561382949608362055/1571665848660271197^Delastia~Y~H~PALADIN;Magmaa~Y~D~DRUID;Dupence~T~D~MAGE;Madneskiller~T~D~SHAMAN;Kabash~T~D~PALADIN;BELDY.ru~Y~D~MAGE;LePanzer~Y~T~"
     }
   ],
-  "all": "GR1^1571665848660271197^1795114800^25^CORE 2 run^https://discord.com/channels/897135062951276604/1561382949608362055/1571665848660271197^Magmaa~Y~D~DRUID",
+  "all": "GR1^1571665848660271197^1795114800^25^CORE 2 run^https://discord.com/channels/897135062951276604/1561382949608362055/1571665848660271197^Delastia~Y~H~PALADIN;Magmaa~Y~D~DRUID;Dupence~T~D~MAGE;Madneskiller~T~D~SHAMAN;Kabash~T~D~PALADIN;BELDY.ru~Y~D~MAGE;LePanzer~Y~T~",
   "problems": []
 }
