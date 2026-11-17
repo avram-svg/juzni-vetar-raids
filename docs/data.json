@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T17:21:29.547Z",
+  "updated": "2026-11-17T01:00:31.422Z",
   "server": "897135062951276604",
   "raids": [
     {
@@ -10,13 +10,13 @@
       "link": "https://discord.com/channels/897135062951276604/1561382949608362055/1571665848660271197",
       "leader": "Magmaa",
       "counts": {
-        "signed": 4,
+        "signed": 5,
         "late": 0,
         "tentative": 3,
         "bench": 0,
         "declined": 0,
         "tanks": 1,
-        "healers": 1
+        "healers": 2
       },
       "signups": [
         {
@@ -44,6 +44,12 @@
           "status": "T"
         },
         {
+          "name": "2Ez",
+          "cls": "DRUID",
+          "role": "H",
+          "status": "Y"
+        },
+        {
           "name": "Kabash",
           "cls": "PALADIN",
           "role": "D",
@@ -62,9 +68,9 @@
           "status": "Y"
         }
       ],
-      "import": "GR1^1571665848660271197^1795114800^25^CORE 2 run^https://discord.com/channels/897135062951276604/1561382949608362055/1571665848660271197^Delastia~Y~H~PALADIN;Magmaa~Y~D~DRUID;Dupence~T~D~MAGE;Madneskiller~T~D~SHAMAN;Kabash~T~D~PALADIN;BELDY.ru~Y~D~MAGE;LePanzer~Y~T~"
+      "import": "GR1^1571665848660271197^1795114800^25^CORE 2 run^https://discord.com/channels/897135062951276604/1561382949608362055/1571665848660271197^Delastia~Y~H~PALADIN;Magmaa~Y~D~DRUID;Dupence~T~D~MAGE;Madneskiller~T~D~SHAMAN;2Ez~Y~H~DRUID;Kabash~T~D~PALADIN;BELDY.ru~Y~D~MAGE;LePanzer~Y~T~"
     }
   ],
-  "all": "GR1^1571665848660271197^1795114800^25^CORE 2 run^https://discord.com/channels/897135062951276604/1561382949608362055/1571665848660271197^Delastia~Y~H~PALADIN;Magmaa~Y~D~DRUID;Dupence~T~D~MAGE;Madneskiller~T~D~SHAMAN;Kabash~T~D~PALADIN;BELDY.ru~Y~D~MAGE;LePanzer~Y~T~",
+  "all": "GR1^1571665848660271197^1795114800^25^CORE 2 run^https://discord.com/channels/897135062951276604/1561382949608362055/1571665848660271197^Delastia~Y~H~PALADIN;Magmaa~Y~D~DRUID;Dupence~T~D~MAGE;Madneskiller~T~D~SHAMAN;2Ez~Y~H~DRUID;Kabash~T~D~PALADIN;BELDY.ru~Y~D~MAGE;LePanzer~Y~T~",
   "problems": []
 }
