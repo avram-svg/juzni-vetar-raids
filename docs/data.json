@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T09:00:05.803Z",
+  "updated": "2026-11-17T18:24:58.714Z",
   "server": "897135062951276604",
   "raids": [
     {
@@ -10,11 +10,11 @@
       "link": "https://discord.com/channels/897135062951276604/1561382949608362055/1571665848660271197",
       "leader": "Magmaa",
       "counts": {
-        "signed": 6,
+        "signed": 8,
         "late": 0,
         "tentative": 2,
         "bench": 0,
-        "declined": 0,
+        "declined": 1,
         "tanks": 1,
         "healers": 2
       },
@@ -44,6 +44,18 @@
           "status": "T"
         },
         {
+          "name": "Kego",
+          "cls": "SHAMAN",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Metalac",
+          "cls": "",
+          "role": "D",
+          "status": "N"
+        },
+        {
           "name": "Kabash",
           "cls": "WARRIOR",
           "role": "D",
@@ -66,11 +78,17 @@
           "cls": "",
           "role": "T",
           "status": "Y"
+        },
+        {
+          "name": "Shisha♡",
+          "cls": "HUNTER",
+          "role": "D",
+          "status": "Y"
         }
       ],
-      "import": "GR1^1571665848660271197^1795114800^25^CORE 2 run^https://discord.com/channels/897135062951276604/1561382949608362055/1571665848660271197^Delastia~Y~H~PALADIN;Magmaa~Y~D~DRUID;Dupence~T~D~MAGE;Madneskiller~T~D~SHAMAN;Kabash~Y~D~WARRIOR;2Ez~Y~H~DRUID;BELDY.ru~Y~D~MAGE;LePanzer~Y~T~"
+      "import": "GR1^1571665848660271197^1795114800^25^CORE 2 run^https://discord.com/channels/897135062951276604/1561382949608362055/1571665848660271197^Delastia~Y~H~PALADIN;Magmaa~Y~D~DRUID;Dupence~T~D~MAGE;Madneskiller~T~D~SHAMAN;Kego~Y~D~SHAMAN;Metalac~N~D~;Kabash~Y~D~WARRIOR;2Ez~Y~H~DRUID;BELDY.ru~Y~D~MAGE;LePanzer~Y~T~;Shisha♡~Y~D~HUNTER"
     }
   ],
-  "all": "GR1^1571665848660271197^1795114800^25^CORE 2 run^https://discord.com/channels/897135062951276604/1561382949608362055/1571665848660271197^Delastia~Y~H~PALADIN;Magmaa~Y~D~DRUID;Dupence~T~D~MAGE;Madneskiller~T~D~SHAMAN;Kabash~Y~D~WARRIOR;2Ez~Y~H~DRUID;BELDY.ru~Y~D~MAGE;LePanzer~Y~T~",
+  "all": "GR1^1571665848660271197^1795114800^25^CORE 2 run^https://discord.com/channels/897135062951276604/1561382949608362055/1571665848660271197^Delastia~Y~H~PALADIN;Magmaa~Y~D~DRUID;Dupence~T~D~MAGE;Madneskiller~T~D~SHAMAN;Kego~Y~D~SHAMAN;Metalac~N~D~;Kabash~Y~D~WARRIOR;2Ez~Y~H~DRUID;BELDY.ru~Y~D~MAGE;LePanzer~Y~T~;Shisha♡~Y~D~HUNTER",
   "problems": []
 }
