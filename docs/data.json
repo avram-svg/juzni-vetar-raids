@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T01:13:50.233Z",
+  "updated": "2026-11-18T09:01:45.951Z",
   "server": "897135062951276604",
   "raids": [
     {
@@ -10,7 +10,7 @@
       "link": "https://discord.com/channels/897135062951276604/1561382833270816881/1572367007418941513",
       "leader": "Magmaa",
       "counts": {
-        "signed": 7,
+        "signed": 8,
         "late": 0,
         "tentative": 0,
         "bench": 0,
@@ -34,6 +34,12 @@
         {
           "name": "Magmaa",
           "cls": "SHAMAN",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Kego",
+          "cls": "PRIEST",
           "role": "D",
           "status": "Y"
         },
@@ -62,7 +68,7 @@
           "status": "Y"
         }
       ],
-      "import": "GR1^1572367007418941513^1795114800^25^Core 1^https://discord.com/channels/897135062951276604/1561382833270816881/1572367007418941513^Kajsija~Y~D~ROGUE;Akagami~Y~H~PALADIN;Magmaa~Y~D~SHAMAN;Dupence~Y~T~;Rott~Y~D~WARRIOR;Delastia~Y~D~SHAMAN;Kabash~Y~H~PRIEST"
+      "import": "GR1^1572367007418941513^1795114800^25^Core 1^https://discord.com/channels/897135062951276604/1561382833270816881/1572367007418941513^Kajsija~Y~D~ROGUE;Akagami~Y~H~PALADIN;Magmaa~Y~D~SHAMAN;Kego~Y~D~PRIEST;Dupence~Y~T~;Rott~Y~D~WARRIOR;Delastia~Y~D~SHAMAN;Kabash~Y~H~PRIEST"
     },
     {
       "id": "1572367467118985259",
@@ -115,6 +121,6 @@
       "import": "GR1^1572367467118985259^1795287600^25^Core 2^https://discord.com/channels/897135062951276604/1561382949608362055/1572367467118985259^Kabash~Y~T~;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;2Ez~Y~H~DRUID;Kajsija~Y~D~WARRIOR"
     }
   ],
-  "all": "GR1^1572367007418941513^1795114800^25^Core 1^https://discord.com/channels/897135062951276604/1561382833270816881/1572367007418941513^Kajsija~Y~D~ROGUE;Akagami~Y~H~PALADIN;Magmaa~Y~D~SHAMAN;Dupence~Y~T~;Rott~Y~D~WARRIOR;Delastia~Y~D~SHAMAN;Kabash~Y~H~PRIEST\nGR1^1572367467118985259^1795287600^25^Core 2^https://discord.com/channels/897135062951276604/1561382949608362055/1572367467118985259^Kabash~Y~T~;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;2Ez~Y~H~DRUID;Kajsija~Y~D~WARRIOR",
+  "all": "GR1^1572367007418941513^1795114800^25^Core 1^https://discord.com/channels/897135062951276604/1561382833270816881/1572367007418941513^Kajsija~Y~D~ROGUE;Akagami~Y~H~PALADIN;Magmaa~Y~D~SHAMAN;Kego~Y~D~PRIEST;Dupence~Y~T~;Rott~Y~D~WARRIOR;Delastia~Y~D~SHAMAN;Kabash~Y~H~PRIEST\nGR1^1572367467118985259^1795287600^25^Core 2^https://discord.com/channels/897135062951276604/1561382949608362055/1572367467118985259^Kabash~Y~T~;Magmaa~Y~D~DRUID;BELDY.ru~Y~D~MAGE;2Ez~Y~H~DRUID;Kajsija~Y~D~WARRIOR",
   "problems": []
 }
