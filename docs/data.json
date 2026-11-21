@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T19:03:50.986Z",
+  "updated": "2026-11-21T23:45:06.876Z",
   "server": "897135062951276604",
   "raids": [
     {
@@ -126,7 +126,7 @@
       "link": "https://discord.com/channels/897135062951276604/1535015126803939498/1572724523709632575",
       "leader": "Magmaa",
       "counts": {
-        "signed": 10,
+        "signed": 11,
         "late": 0,
         "tentative": 0,
         "bench": 0,
@@ -135,12 +135,6 @@
         "healers": 2
       },
       "signups": [
-        {
-          "name": "Delastia",
-          "cls": "",
-          "role": "D",
-          "status": "N"
-        },
         {
           "name": "Runiir",
           "cls": "ROGUE",
@@ -158,6 +152,30 @@
           "cls": "DRUID",
           "role": "D",
           "status": "Y"
+        },
+        {
+          "name": "2Ez",
+          "cls": "PALADIN",
+          "role": "H",
+          "status": "Y"
+        },
+        {
+          "name": "Kego",
+          "cls": "DRUID",
+          "role": "H",
+          "status": "Y"
+        },
+        {
+          "name": "bartzen4",
+          "cls": "PALADIN",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Delastia",
+          "cls": "",
+          "role": "D",
+          "status": "N"
         },
         {
           "name": "Roaster",
@@ -178,33 +196,21 @@
           "status": "Y"
         },
         {
-          "name": "2Ez",
-          "cls": "PALADIN",
-          "role": "H",
-          "status": "Y"
-        },
-        {
-          "name": "Kego",
-          "cls": "DRUID",
-          "role": "H",
-          "status": "Y"
-        },
-        {
           "name": "purro",
           "cls": "",
           "role": "T",
           "status": "Y"
         },
         {
-          "name": "bartzen4",
-          "cls": "PALADIN",
+          "name": "Zarael",
+          "cls": "SHAMAN",
           "role": "D",
           "status": "Y"
         }
       ],
-      "import": "GR1^1572724523709632575^1795453200^25^Core 3^https://discord.com/channels/897135062951276604/1535015126803939498/1572724523709632575^Delastia~N~D~;Runiir~Y~D~ROGUE;Cozi~Y~D~HUNTER;amulet~Y~D~DRUID;Roaster~Y~D~MAGE;EmptysocalledGaymer~Y~D~WARLOCK;Barinka~Y~D~DEATHKNIGHT;2Ez~Y~H~PALADIN;Kego~Y~H~DRUID;purro~Y~T~;bartzen4~Y~D~PALADIN"
+      "import": "GR1^1572724523709632575^1795453200^25^Core 3^https://discord.com/channels/897135062951276604/1535015126803939498/1572724523709632575^Runiir~Y~D~ROGUE;Cozi~Y~D~HUNTER;amulet~Y~D~DRUID;2Ez~Y~H~PALADIN;Kego~Y~H~DRUID;bartzen4~Y~D~PALADIN;Delastia~N~D~;Roaster~Y~D~MAGE;EmptysocalledGaymer~Y~D~WARLOCK;Barinka~Y~D~DEATHKNIGHT;purro~Y~T~;Zarael~Y~D~SHAMAN"
     }
   ],
-  "all": "GR1^1572367467118985259^1795287600^25^Core 2^https://discord.com/channels/897135062951276604/1561382949608362055/1572367467118985259^osso~Y~H~PALADIN;Kego~N~D~;BELDY.ru~Y~D~MAGE;Barinka~N~D~;2Ez~B~H~DRUID;dayto~Y~D~MAGE;Arma~T~H~PRIEST;Dupence~T~D~DRUID;Kajsija~Y~D~WARRIOR;Metalac~T~D~DRUID;Magmaa~Y~D~DRUID;Kabash~Y~D~WARRIOR;LePanzer~Y~T~;Shisha♡~Y~D~HUNTER;Madneskiller~Y~D~SHAMAN;Delastia~Y~D~SHAMAN\nGR1^1572724523709632575^1795453200^25^Core 3^https://discord.com/channels/897135062951276604/1535015126803939498/1572724523709632575^Delastia~N~D~;Runiir~Y~D~ROGUE;Cozi~Y~D~HUNTER;amulet~Y~D~DRUID;Roaster~Y~D~MAGE;EmptysocalledGaymer~Y~D~WARLOCK;Barinka~Y~D~DEATHKNIGHT;2Ez~Y~H~PALADIN;Kego~Y~H~DRUID;purro~Y~T~;bartzen4~Y~D~PALADIN",
+  "all": "GR1^1572367467118985259^1795287600^25^Core 2^https://discord.com/channels/897135062951276604/1561382949608362055/1572367467118985259^osso~Y~H~PALADIN;Kego~N~D~;BELDY.ru~Y~D~MAGE;Barinka~N~D~;2Ez~B~H~DRUID;dayto~Y~D~MAGE;Arma~T~H~PRIEST;Dupence~T~D~DRUID;Kajsija~Y~D~WARRIOR;Metalac~T~D~DRUID;Magmaa~Y~D~DRUID;Kabash~Y~D~WARRIOR;LePanzer~Y~T~;Shisha♡~Y~D~HUNTER;Madneskiller~Y~D~SHAMAN;Delastia~Y~D~SHAMAN\nGR1^1572724523709632575^1795453200^25^Core 3^https://discord.com/channels/897135062951276604/1535015126803939498/1572724523709632575^Runiir~Y~D~ROGUE;Cozi~Y~D~HUNTER;amulet~Y~D~DRUID;2Ez~Y~H~PALADIN;Kego~Y~H~DRUID;bartzen4~Y~D~PALADIN;Delastia~N~D~;Roaster~Y~D~MAGE;EmptysocalledGaymer~Y~D~WARLOCK;Barinka~Y~D~DEATHKNIGHT;purro~Y~T~;Zarael~Y~D~SHAMAN",
   "problems": []
 }
