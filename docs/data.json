@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T09:41:52.627Z",
+  "updated": "2026-11-23T21:59:01.772Z",
   "server": "897135062951276604",
   "raids": [
     {
@@ -10,21 +10,15 @@
       "link": "https://discord.com/channels/897135062951276604/1535015126803939498/1572724523709632575",
       "leader": "Magmaa",
       "counts": {
-        "signed": 11,
+        "signed": 9,
         "late": 0,
         "tentative": 0,
         "bench": 0,
-        "declined": 1,
+        "declined": 3,
         "tanks": 1,
         "healers": 2
       },
       "signups": [
-        {
-          "name": "Runiir",
-          "cls": "ROGUE",
-          "role": "D",
-          "status": "Y"
-        },
         {
           "name": "Cozi",
           "cls": "HUNTER",
@@ -33,9 +27,9 @@
         },
         {
           "name": "amulet",
-          "cls": "DRUID",
+          "cls": "",
           "role": "D",
-          "status": "Y"
+          "status": "N"
         },
         {
           "name": "2Ez",
@@ -80,6 +74,12 @@
           "status": "Y"
         },
         {
+          "name": "Runiir",
+          "cls": "",
+          "role": "D",
+          "status": "N"
+        },
+        {
           "name": "purro",
           "cls": "",
           "role": "T",
@@ -92,7 +92,7 @@
           "status": "Y"
         }
       ],
-      "import": "GR1^1572724523709632575^1795453200^25^Core 3^https://discord.com/channels/897135062951276604/1535015126803939498/1572724523709632575^Runiir~Y~D~ROGUE;Cozi~Y~D~HUNTER;amulet~Y~D~DRUID;2Ez~Y~H~PALADIN;Kego~Y~H~DRUID;bartzen4~Y~D~PALADIN;Delastia~N~D~;Roaster~Y~D~MAGE;EmptysocalledGaymer~Y~D~WARLOCK;Barinka~Y~D~DEATHKNIGHT;purro~Y~T~;Zarael~Y~D~SHAMAN"
+      "import": "GR1^1572724523709632575^1795453200^25^Core 3^https://discord.com/channels/897135062951276604/1535015126803939498/1572724523709632575^Cozi~Y~D~HUNTER;amulet~N~D~;2Ez~Y~H~PALADIN;Kego~Y~H~DRUID;bartzen4~Y~D~PALADIN;Delastia~N~D~;Roaster~Y~D~MAGE;EmptysocalledGaymer~Y~D~WARLOCK;Barinka~Y~D~DEATHKNIGHT;Runiir~N~D~;purro~Y~T~;Zarael~Y~D~SHAMAN"
     },
     {
       "id": "1574184269264457919",
@@ -102,13 +102,13 @@
       "link": "https://discord.com/channels/897135062951276604/1561382833270816881/1574184269264457919",
       "leader": "Magmaa",
       "counts": {
-        "signed": 7,
+        "signed": 10,
         "late": 0,
         "tentative": 1,
         "bench": 0,
         "declined": 0,
-        "tanks": 1,
-        "healers": 1
+        "tanks": 2,
+        "healers": 2
       },
       "signups": [
         {
@@ -121,6 +121,18 @@
           "name": "Magmaa",
           "cls": "SHAMAN",
           "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Kabash",
+          "cls": "PRIEST",
+          "role": "H",
+          "status": "Y"
+        },
+        {
+          "name": "inofe",
+          "cls": "",
+          "role": "T",
           "status": "Y"
         },
         {
@@ -148,6 +160,12 @@
           "status": "Y"
         },
         {
+          "name": "Bigbro",
+          "cls": "WARRIOR",
+          "role": "D",
+          "status": "Y"
+        },
+        {
           "name": "Kego",
           "cls": "PRIEST",
           "role": "D",
@@ -160,7 +178,7 @@
           "status": "Y"
         }
       ],
-      "import": "GR1^1574184269264457919^1795723200^25^CORE 1^https://discord.com/channels/897135062951276604/1561382833270816881/1574184269264457919^Delastia~Y~D~SHAMAN;Magmaa~Y~D~SHAMAN;Dupence~Y~T~;Metalac~T~D~DRUID;Akagami~Y~H~PALADIN;Madneskiller~Y~D~HUNTER;Kego~Y~D~PRIEST;Kajsija~Y~D~ROGUE"
+      "import": "GR1^1574184269264457919^1795723200^25^CORE 1^https://discord.com/channels/897135062951276604/1561382833270816881/1574184269264457919^Delastia~Y~D~SHAMAN;Magmaa~Y~D~SHAMAN;Kabash~Y~H~PRIEST;inofe~Y~T~;Dupence~Y~T~;Metalac~T~D~DRUID;Akagami~Y~H~PALADIN;Madneskiller~Y~D~HUNTER;Bigbro~Y~D~WARRIOR;Kego~Y~D~PRIEST;Kajsija~Y~D~ROGUE"
     },
     {
       "id": "1574184601939607744",
@@ -170,18 +188,42 @@
       "link": "https://discord.com/channels/897135062951276604/1561382949608362055/1574184601939607744",
       "leader": "Magmaa",
       "counts": {
-        "signed": 4,
+        "signed": 8,
         "late": 0,
         "tentative": 0,
         "bench": 0,
         "declined": 0,
         "tanks": 1,
-        "healers": 0
+        "healers": 2
       },
       "signups": [
         {
+          "name": "inofe",
+          "cls": "PRIEST",
+          "role": "H",
+          "status": "Y"
+        },
+        {
+          "name": "Aleksich/Sikislava",
+          "cls": "MAGE",
+          "role": "D",
+          "status": "Y"
+        },
+        {
           "name": "Magmaa",
           "cls": "DRUID",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Delastia",
+          "cls": "PALADIN",
+          "role": "H",
+          "status": "Y"
+        },
+        {
+          "name": "Kabash",
+          "cls": "PALADIN",
           "role": "D",
           "status": "Y"
         },
@@ -204,9 +246,59 @@
           "status": "Y"
         }
       ],
-      "import": "GR1^1574184601939607744^1795892400^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1574184601939607744^Magmaa~Y~D~DRUID;Madneskiller~Y~T~;Kajsija~Y~D~WARRIOR;Kego~Y~D~SHAMAN"
+      "import": "GR1^1574184601939607744^1795892400^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1574184601939607744^inofe~Y~H~PRIEST;Aleksich/Sikislava~Y~D~MAGE;Magmaa~Y~D~DRUID;Delastia~Y~H~PALADIN;Kabash~Y~D~PALADIN;Madneskiller~Y~T~;Kajsija~Y~D~WARRIOR;Kego~Y~D~SHAMAN"
+    },
+    {
+      "id": "1574512687105314863",
+      "title": "CORE 3",
+      "start": 1796058000,
+      "size": 25,
+      "link": "https://discord.com/channels/897135062951276604/1535015126803939498/1574512687105314863",
+      "leader": "Magmaa",
+      "counts": {
+        "signed": 5,
+        "late": 0,
+        "tentative": 0,
+        "bench": 0,
+        "declined": 0,
+        "tanks": 1,
+        "healers": 1
+      },
+      "signups": [
+        {
+          "name": "Barinka",
+          "cls": "DEATHKNIGHT",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Kego",
+          "cls": "DRUID",
+          "role": "H",
+          "status": "Y"
+        },
+        {
+          "name": "purro",
+          "cls": "",
+          "role": "T",
+          "status": "Y"
+        },
+        {
+          "name": "Kajsija",
+          "cls": "MAGE",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Delastia",
+          "cls": "SHAMAN",
+          "role": "D",
+          "status": "Y"
+        }
+      ],
+      "import": "GR1^1574512687105314863^1796058000^25^CORE 3^https://discord.com/channels/897135062951276604/1535015126803939498/1574512687105314863^Barinka~Y~D~DEATHKNIGHT;Kego~Y~H~DRUID;purro~Y~T~;Kajsija~Y~D~MAGE;Delastia~Y~D~SHAMAN"
     }
   ],
-  "all": "GR1^1572724523709632575^1795453200^25^Core 3^https://discord.com/channels/897135062951276604/1535015126803939498/1572724523709632575^Runiir~Y~D~ROGUE;Cozi~Y~D~HUNTER;amulet~Y~D~DRUID;2Ez~Y~H~PALADIN;Kego~Y~H~DRUID;bartzen4~Y~D~PALADIN;Delastia~N~D~;Roaster~Y~D~MAGE;EmptysocalledGaymer~Y~D~WARLOCK;Barinka~Y~D~DEATHKNIGHT;purro~Y~T~;Zarael~Y~D~SHAMAN\nGR1^1574184269264457919^1795723200^25^CORE 1^https://discord.com/channels/897135062951276604/1561382833270816881/1574184269264457919^Delastia~Y~D~SHAMAN;Magmaa~Y~D~SHAMAN;Dupence~Y~T~;Metalac~T~D~DRUID;Akagami~Y~H~PALADIN;Madneskiller~Y~D~HUNTER;Kego~Y~D~PRIEST;Kajsija~Y~D~ROGUE\nGR1^1574184601939607744^1795892400^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1574184601939607744^Magmaa~Y~D~DRUID;Madneskiller~Y~T~;Kajsija~Y~D~WARRIOR;Kego~Y~D~SHAMAN",
+  "all": "GR1^1572724523709632575^1795453200^25^Core 3^https://discord.com/channels/897135062951276604/1535015126803939498/1572724523709632575^Cozi~Y~D~HUNTER;amulet~N~D~;2Ez~Y~H~PALADIN;Kego~Y~H~DRUID;bartzen4~Y~D~PALADIN;Delastia~N~D~;Roaster~Y~D~MAGE;EmptysocalledGaymer~Y~D~WARLOCK;Barinka~Y~D~DEATHKNIGHT;Runiir~N~D~;purro~Y~T~;Zarael~Y~D~SHAMAN\nGR1^1574184269264457919^1795723200^25^CORE 1^https://discord.com/channels/897135062951276604/1561382833270816881/1574184269264457919^Delastia~Y~D~SHAMAN;Magmaa~Y~D~SHAMAN;Kabash~Y~H~PRIEST;inofe~Y~T~;Dupence~Y~T~;Metalac~T~D~DRUID;Akagami~Y~H~PALADIN;Madneskiller~Y~D~HUNTER;Bigbro~Y~D~WARRIOR;Kego~Y~D~PRIEST;Kajsija~Y~D~ROGUE\nGR1^1574184601939607744^1795892400^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1574184601939607744^inofe~Y~H~PRIEST;Aleksich/Sikislava~Y~D~MAGE;Magmaa~Y~D~DRUID;Delastia~Y~H~PALADIN;Kabash~Y~D~PALADIN;Madneskiller~Y~T~;Kajsija~Y~D~WARRIOR;Kego~Y~D~SHAMAN\nGR1^1574512687105314863^1796058000^25^CORE 3^https://discord.com/channels/897135062951276604/1535015126803939498/1574512687105314863^Barinka~Y~D~DEATHKNIGHT;Kego~Y~H~DRUID;purro~Y~T~;Kajsija~Y~D~MAGE;Delastia~Y~D~SHAMAN",
   "problems": []
 }
