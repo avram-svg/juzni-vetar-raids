@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T05:52:57.018Z",
+  "updated": "2026-11-24T17:28:05.012Z",
   "server": "897135062951276604",
   "raids": [
     {
@@ -102,7 +102,7 @@
       "link": "https://discord.com/channels/897135062951276604/1561382949608362055/1574184601939607744",
       "leader": "Magmaa",
       "counts": {
-        "signed": 8,
+        "signed": 9,
         "late": 0,
         "tentative": 0,
         "bench": 0,
@@ -136,6 +136,12 @@
           "status": "Y"
         },
         {
+          "name": "BELDY.ru",
+          "cls": "MAGE",
+          "role": "D",
+          "status": "Y"
+        },
+        {
           "name": "Kabash",
           "cls": "PALADIN",
           "role": "D",
@@ -160,7 +166,7 @@
           "status": "Y"
         }
       ],
-      "import": "GR1^1574184601939607744^1795892400^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1574184601939607744^inofe~Y~H~PRIEST;Aleksich/Sikislava~Y~D~MAGE;Magmaa~Y~D~DRUID;Delastia~Y~H~PALADIN;Kabash~Y~D~PALADIN;Madneskiller~Y~T~;Kajsija~Y~D~WARRIOR;Kego~Y~D~SHAMAN"
+      "import": "GR1^1574184601939607744^1795892400^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1574184601939607744^inofe~Y~H~PRIEST;Aleksich/Sikislava~Y~D~MAGE;Magmaa~Y~D~DRUID;Delastia~Y~H~PALADIN;BELDY.ru~Y~D~MAGE;Kabash~Y~D~PALADIN;Madneskiller~Y~T~;Kajsija~Y~D~WARRIOR;Kego~Y~D~SHAMAN"
     },
     {
       "id": "1574512687105314863",
@@ -170,15 +176,45 @@
       "link": "https://discord.com/channels/897135062951276604/1535015126803939498/1574512687105314863",
       "leader": "Magmaa",
       "counts": {
-        "signed": 5,
+        "signed": 11,
         "late": 0,
-        "tentative": 0,
+        "tentative": 1,
         "bench": 0,
         "declined": 0,
-        "tanks": 1,
-        "healers": 1
+        "tanks": 2,
+        "healers": 2
       },
       "signups": [
+        {
+          "name": "bartzen4",
+          "cls": "PALADIN",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Cozi",
+          "cls": "HUNTER",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "Madneskiller",
+          "cls": "HUNTER",
+          "role": "D",
+          "status": "T"
+        },
+        {
+          "name": "Kajsija",
+          "cls": "MAGE",
+          "role": "D",
+          "status": "Y"
+        },
+        {
+          "name": "inofe",
+          "cls": "DRUID",
+          "role": "T",
+          "status": "Y"
+        },
         {
           "name": "Barinka",
           "cls": "DEATHKNIGHT",
@@ -192,13 +228,25 @@
           "status": "Y"
         },
         {
+          "name": "Darylegen",
+          "cls": "SHAMAN",
+          "role": "D",
+          "status": "Y"
+        },
+        {
           "name": "purro",
           "cls": "",
           "role": "T",
           "status": "Y"
         },
         {
-          "name": "Kajsija",
+          "name": "Sindo",
+          "cls": "PALADIN",
+          "role": "H",
+          "status": "Y"
+        },
+        {
+          "name": "Roaster",
           "cls": "MAGE",
           "role": "D",
           "status": "Y"
@@ -210,9 +258,9 @@
           "status": "Y"
         }
       ],
-      "import": "GR1^1574512687105314863^1796058000^25^CORE 3^https://discord.com/channels/897135062951276604/1535015126803939498/1574512687105314863^Barinka~Y~D~DEATHKNIGHT;Kego~Y~H~DRUID;purro~Y~T~;Kajsija~Y~D~MAGE;Delastia~Y~D~SHAMAN"
+      "import": "GR1^1574512687105314863^1796058000^25^CORE 3^https://discord.com/channels/897135062951276604/1535015126803939498/1574512687105314863^bartzen4~Y~D~PALADIN;Cozi~Y~D~HUNTER;Madneskiller~T~D~HUNTER;Kajsija~Y~D~MAGE;inofe~Y~T~DRUID;Barinka~Y~D~DEATHKNIGHT;Kego~Y~H~DRUID;Darylegen~Y~D~SHAMAN;purro~Y~T~;Sindo~Y~H~PALADIN;Roaster~Y~D~MAGE;Delastia~Y~D~SHAMAN"
     }
   ],
-  "all": "GR1^1574184269264457919^1795723200^25^CORE 1^https://discord.com/channels/897135062951276604/1561382833270816881/1574184269264457919^Delastia~Y~D~SHAMAN;Magmaa~Y~D~SHAMAN;Rott~Y~D~WARRIOR;Kabash~Y~H~PRIEST;inofe~Y~T~;Metalac~T~D~DRUID;Bigbro~Y~D~WARRIOR;Kego~Y~D~PRIEST;Dupence~Y~T~;Akagami~Y~H~PALADIN;Madneskiller~Y~D~HUNTER;Kajsija~Y~D~ROGUE\nGR1^1574184601939607744^1795892400^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1574184601939607744^inofe~Y~H~PRIEST;Aleksich/Sikislava~Y~D~MAGE;Magmaa~Y~D~DRUID;Delastia~Y~H~PALADIN;Kabash~Y~D~PALADIN;Madneskiller~Y~T~;Kajsija~Y~D~WARRIOR;Kego~Y~D~SHAMAN\nGR1^1574512687105314863^1796058000^25^CORE 3^https://discord.com/channels/897135062951276604/1535015126803939498/1574512687105314863^Barinka~Y~D~DEATHKNIGHT;Kego~Y~H~DRUID;purro~Y~T~;Kajsija~Y~D~MAGE;Delastia~Y~D~SHAMAN",
+  "all": "GR1^1574184269264457919^1795723200^25^CORE 1^https://discord.com/channels/897135062951276604/1561382833270816881/1574184269264457919^Delastia~Y~D~SHAMAN;Magmaa~Y~D~SHAMAN;Rott~Y~D~WARRIOR;Kabash~Y~H~PRIEST;inofe~Y~T~;Metalac~T~D~DRUID;Bigbro~Y~D~WARRIOR;Kego~Y~D~PRIEST;Dupence~Y~T~;Akagami~Y~H~PALADIN;Madneskiller~Y~D~HUNTER;Kajsija~Y~D~ROGUE\nGR1^1574184601939607744^1795892400^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1574184601939607744^inofe~Y~H~PRIEST;Aleksich/Sikislava~Y~D~MAGE;Magmaa~Y~D~DRUID;Delastia~Y~H~PALADIN;BELDY.ru~Y~D~MAGE;Kabash~Y~D~PALADIN;Madneskiller~Y~T~;Kajsija~Y~D~WARRIOR;Kego~Y~D~SHAMAN\nGR1^1574512687105314863^1796058000^25^CORE 3^https://discord.com/channels/897135062951276604/1535015126803939498/1574512687105314863^bartzen4~Y~D~PALADIN;Cozi~Y~D~HUNTER;Madneskiller~T~D~HUNTER;Kajsija~Y~D~MAGE;inofe~Y~T~DRUID;Barinka~Y~D~DEATHKNIGHT;Kego~Y~H~DRUID;Darylegen~Y~D~SHAMAN;purro~Y~T~;Sindo~Y~H~PALADIN;Roaster~Y~D~MAGE;Delastia~Y~D~SHAMAN",
   "problems": []
 }
