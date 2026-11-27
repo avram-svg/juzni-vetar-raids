@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T13:43:53.444Z",
+  "updated": "2026-11-27T22:37:07.897Z",
   "server": "897135062951276604",
   "raids": [
     {
@@ -10,13 +10,13 @@
       "link": "https://discord.com/channels/897135062951276604/1516956742603243722/1575253001726071006",
       "leader": "Magmaa",
       "counts": {
-        "signed": 24,
+        "signed": 26,
         "late": 1,
-        "tentative": 1,
+        "tentative": 0,
         "bench": 0,
         "declined": 2,
         "tanks": 2,
-        "healers": 4
+        "healers": 5
       },
       "signups": [
         {
@@ -42,12 +42,6 @@
           "cls": "",
           "role": "T",
           "status": "Y"
-        },
-        {
-          "name": "Arma",
-          "cls": "PRIEST",
-          "role": "H",
-          "status": "T"
         },
         {
           "name": "Kego",
@@ -83,6 +77,12 @@
           "name": "Kajsija",
           "cls": "",
           "role": "T",
+          "status": "Y"
+        },
+        {
+          "name": "Arma",
+          "cls": "PRIEST",
+          "role": "H",
           "status": "Y"
         },
         {
@@ -164,6 +164,12 @@
           "status": "Y"
         },
         {
+          "name": "Pitbite",
+          "cls": "WARRIOR",
+          "role": "D",
+          "status": "Y"
+        },
+        {
           "name": "inofe",
           "cls": "",
           "role": "D",
@@ -182,7 +188,7 @@
           "status": "Y"
         }
       ],
-      "import": "GR1^1575253001726071006^1795809600^25^FIRELANDS 25 MAN 3-5 HC^https://discord.com/channels/897135062951276604/1516956742603243722/1575253001726071006^Magmaa~Y~D~SHAMAN;2Ez~Y~H~PALADIN;Darylegen~Y~D~SHAMAN;purro~Y~T~;Arma~T~H~PRIEST;Kego~Y~H~DRUID;Akagami~Y~D~MAGE;Kaelis~Y~D~MAGE;Иса~Y~D~PALADIN;Dupence~N~D~;Kajsija~Y~T~;pookie~Y~D~DEATHKNIGHT;T1T@N~Y~D~WARRIOR;Sindo~Y~D~MAGE;velikistrumf~Y~D~SHAMAN;jhanir~Y~D~PRIEST;BELDY.ru~Y~D~MAGE;Racko1985~Y~D~PALADIN;Method~Y~D~MAGE;Kyōka Suigetsu~Y~D~DRUID;GG~Y~D~WARRIOR;Delastia~Y~H~PALADIN;Kaspian~Y~H~PRIEST;Roaster~Y~D~MAGE;inofe~N~D~;Barinka~L~D~;Madneskiller~Y~D~HUNTER"
+      "import": "GR1^1575253001726071006^1795809600^25^FIRELANDS 25 MAN 3-5 HC^https://discord.com/channels/897135062951276604/1516956742603243722/1575253001726071006^Magmaa~Y~D~SHAMAN;2Ez~Y~H~PALADIN;Darylegen~Y~D~SHAMAN;purro~Y~T~;Kego~Y~H~DRUID;Akagami~Y~D~MAGE;Kaelis~Y~D~MAGE;Иса~Y~D~PALADIN;Dupence~N~D~;Kajsija~Y~T~;Arma~Y~H~PRIEST;pookie~Y~D~DEATHKNIGHT;T1T@N~Y~D~WARRIOR;Sindo~Y~D~MAGE;velikistrumf~Y~D~SHAMAN;jhanir~Y~D~PRIEST;BELDY.ru~Y~D~MAGE;Racko1985~Y~D~PALADIN;Method~Y~D~MAGE;Kyōka Suigetsu~Y~D~DRUID;GG~Y~D~WARRIOR;Delastia~Y~H~PALADIN;Kaspian~Y~H~PRIEST;Roaster~Y~D~MAGE;Pitbite~Y~D~WARRIOR;inofe~N~D~;Barinka~L~D~;Madneskiller~Y~D~HUNTER"
     },
     {
       "id": "1574184601939607744",
@@ -194,7 +200,7 @@
       "counts": {
         "signed": 12,
         "late": 0,
-        "tentative": 0,
+        "tentative": 1,
         "bench": 0,
         "declined": 0,
         "tanks": 3,
@@ -218,6 +224,12 @@
           "cls": "SHAMAN",
           "role": "D",
           "status": "Y"
+        },
+        {
+          "name": "Arma",
+          "cls": "ROGUE",
+          "role": "D",
+          "status": "T"
         },
         {
           "name": "inofe",
@@ -274,7 +286,7 @@
           "status": "Y"
         }
       ],
-      "import": "GR1^1574184601939607744^1795892400^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1574184601939607744^Kabash~Y~D~PALADIN;Kajsija~Y~D~WARRIOR;Kego~Y~D~SHAMAN;inofe~Y~H~PRIEST;Aleksich/Sikislava~Y~D~MAGE;Pitbite~Y~H~PRIEST;Magmaa~Y~D~DRUID;Иса~Y~T~DRUID;Delastia~Y~H~PALADIN;Le Panzer~Y~T~;BELDY.ru~Y~D~MAGE;Madneskiller~Y~T~"
+      "import": "GR1^1574184601939607744^1795892400^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1574184601939607744^Kabash~Y~D~PALADIN;Kajsija~Y~D~WARRIOR;Kego~Y~D~SHAMAN;Arma~T~D~ROGUE;inofe~Y~H~PRIEST;Aleksich/Sikislava~Y~D~MAGE;Pitbite~Y~H~PRIEST;Magmaa~Y~D~DRUID;Иса~Y~T~DRUID;Delastia~Y~H~PALADIN;Le Panzer~Y~T~;BELDY.ru~Y~D~MAGE;Madneskiller~Y~T~"
     },
     {
       "id": "1574512687105314863",
@@ -387,6 +399,6 @@
       "import": "GR1^1574512687105314863^1796058000^25^CORE 3^https://discord.com/channels/897135062951276604/1535015126803939498/1574512687105314863^bartzen4~Y~D~PALADIN;Cozi~Y~D~HUNTER;Madneskiller~T~D~HUNTER;Kajsija~Y~D~MAGE;Shisha ♡~T~H~PRIEST;inofe~Y~T~DRUID;Empty so called Gaymer~Y~D~WARLOCK;Barinka~Y~D~DEATHKNIGHT;Kego~Y~H~DRUID;Sindo~N~D~;Darylegen~Y~D~SHAMAN;purro~Y~T~;<Gortahk>~Y~D~PRIEST;Roaster~Y~D~MAGE;Delastia~Y~D~SHAMAN"
     }
   ],
-  "all": "GR1^1575253001726071006^1795809600^25^FIRELANDS 25 MAN 3-5 HC^https://discord.com/channels/897135062951276604/1516956742603243722/1575253001726071006^Magmaa~Y~D~SHAMAN;2Ez~Y~H~PALADIN;Darylegen~Y~D~SHAMAN;purro~Y~T~;Arma~T~H~PRIEST;Kego~Y~H~DRUID;Akagami~Y~D~MAGE;Kaelis~Y~D~MAGE;Иса~Y~D~PALADIN;Dupence~N~D~;Kajsija~Y~T~;pookie~Y~D~DEATHKNIGHT;T1T@N~Y~D~WARRIOR;Sindo~Y~D~MAGE;velikistrumf~Y~D~SHAMAN;jhanir~Y~D~PRIEST;BELDY.ru~Y~D~MAGE;Racko1985~Y~D~PALADIN;Method~Y~D~MAGE;Kyōka Suigetsu~Y~D~DRUID;GG~Y~D~WARRIOR;Delastia~Y~H~PALADIN;Kaspian~Y~H~PRIEST;Roaster~Y~D~MAGE;inofe~N~D~;Barinka~L~D~;Madneskiller~Y~D~HUNTER\nGR1^1574184601939607744^1795892400^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1574184601939607744^Kabash~Y~D~PALADIN;Kajsija~Y~D~WARRIOR;Kego~Y~D~SHAMAN;inofe~Y~H~PRIEST;Aleksich/Sikislava~Y~D~MAGE;Pitbite~Y~H~PRIEST;Magmaa~Y~D~DRUID;Иса~Y~T~DRUID;Delastia~Y~H~PALADIN;Le Panzer~Y~T~;BELDY.ru~Y~D~MAGE;Madneskiller~Y~T~\nGR1^1574512687105314863^1796058000^25^CORE 3^https://discord.com/channels/897135062951276604/1535015126803939498/1574512687105314863^bartzen4~Y~D~PALADIN;Cozi~Y~D~HUNTER;Madneskiller~T~D~HUNTER;Kajsija~Y~D~MAGE;Shisha ♡~T~H~PRIEST;inofe~Y~T~DRUID;Empty so called Gaymer~Y~D~WARLOCK;Barinka~Y~D~DEATHKNIGHT;Kego~Y~H~DRUID;Sindo~N~D~;Darylegen~Y~D~SHAMAN;purro~Y~T~;<Gortahk>~Y~D~PRIEST;Roaster~Y~D~MAGE;Delastia~Y~D~SHAMAN",
+  "all": "GR1^1575253001726071006^1795809600^25^FIRELANDS 25 MAN 3-5 HC^https://discord.com/channels/897135062951276604/1516956742603243722/1575253001726071006^Magmaa~Y~D~SHAMAN;2Ez~Y~H~PALADIN;Darylegen~Y~D~SHAMAN;purro~Y~T~;Kego~Y~H~DRUID;Akagami~Y~D~MAGE;Kaelis~Y~D~MAGE;Иса~Y~D~PALADIN;Dupence~N~D~;Kajsija~Y~T~;Arma~Y~H~PRIEST;pookie~Y~D~DEATHKNIGHT;T1T@N~Y~D~WARRIOR;Sindo~Y~D~MAGE;velikistrumf~Y~D~SHAMAN;jhanir~Y~D~PRIEST;BELDY.ru~Y~D~MAGE;Racko1985~Y~D~PALADIN;Method~Y~D~MAGE;Kyōka Suigetsu~Y~D~DRUID;GG~Y~D~WARRIOR;Delastia~Y~H~PALADIN;Kaspian~Y~H~PRIEST;Roaster~Y~D~MAGE;Pitbite~Y~D~WARRIOR;inofe~N~D~;Barinka~L~D~;Madneskiller~Y~D~HUNTER\nGR1^1574184601939607744^1795892400^25^CORE 2^https://discord.com/channels/897135062951276604/1561382949608362055/1574184601939607744^Kabash~Y~D~PALADIN;Kajsija~Y~D~WARRIOR;Kego~Y~D~SHAMAN;Arma~T~D~ROGUE;inofe~Y~H~PRIEST;Aleksich/Sikislava~Y~D~MAGE;Pitbite~Y~H~PRIEST;Magmaa~Y~D~DRUID;Иса~Y~T~DRUID;Delastia~Y~H~PALADIN;Le Panzer~Y~T~;BELDY.ru~Y~D~MAGE;Madneskiller~Y~T~\nGR1^1574512687105314863^1796058000^25^CORE 3^https://discord.com/channels/897135062951276604/1535015126803939498/1574512687105314863^bartzen4~Y~D~PALADIN;Cozi~Y~D~HUNTER;Madneskiller~T~D~HUNTER;Kajsija~Y~D~MAGE;Shisha ♡~T~H~PRIEST;inofe~Y~T~DRUID;Empty so called Gaymer~Y~D~WARLOCK;Barinka~Y~D~DEATHKNIGHT;Kego~Y~H~DRUID;Sindo~N~D~;Darylegen~Y~D~SHAMAN;purro~Y~T~;<Gortahk>~Y~D~PRIEST;Roaster~Y~D~MAGE;Delastia~Y~D~SHAMAN",
   "problems": []
 }
